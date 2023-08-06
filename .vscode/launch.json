@@ -1,43 +1,19 @@
-//DEV
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "configurations": [
         {
-            "name": "SEIBC kinti DEV",
+            "name": "Microsoft cloud sandbox",
             "request": "launch",
             "type": "al",
-            "environmentType": "OnPrem",
-            "server": "http://seibc.westeurope.cloudapp.azure.com",
-            "serverInstance": "SEIBC_EXT_UA",
-            "authentication": "UserPassword",
-            "startupObjectId": 22,
-            "startupObjectType": "Page",
+            "environmentType": "Sandbox",
+            "environmentName": "sandbox",
+            "startupObjectId": 22, // ezzel indul a BC
+            "startupObjectType": "Page", // váltás a tábla vagy az oldal között
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
-            "tenant": "default",
-            "schemaUpdateMode": "Synchronize",
-            "port": 7749
-        },
-        {
-            "name": "SEIBC kinti Live",
-            "request": "launch",
-            "type": "al",
-            "environmentType": "OnPrem",
-            "server": "http://seibc.westeurope.cloudapp.azure.com",
-            "serverInstance": "SEIBCLIVE_UA",
-            "authentication": "UserPassword",
-            "startupObjectId": 22,
-            "startupObjectType": "Page",
-            "breakOnError": true,
-            "launchBrowser": true,
-            "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true,
-            "tenant": "default",
-            "schemaUpdateMode":"Synchronize",
-            "port": 7349
+            "schemaUpdateMode": "Synchronize"
         }
-
     ]
 }
