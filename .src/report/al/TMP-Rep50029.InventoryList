@@ -1,0 +1,271 @@
+// report 50029 "SEI Physical Inventory List"
+// {
+//     DefaultLayout = RDLC;
+//     RDLCLayout = '.src/report/rdlc/Rep50029.PhysInventoryList1.rdlc';
+//     ApplicationArea = Warehouse;
+//     Caption = 'SEI Physical Inventory List';
+//     UsageCategory = ReportsAndAnalysis;
+
+//     dataset
+//     {
+//         dataitem("Company Information"; "Company Information")
+//         {
+//             column(Company_Name; "Company Information".Name) { }
+//         }
+//         dataitem("Item Journal Batch"; "Item Journal Batch")
+//         {
+//             RequestFilterFields = "Journal Template Name", Name;
+//             column(JBatchJournal_Template_Name; "Journal Template Name") { }
+//             column(JBatchName; Name) { }
+//             column(ShowLOTDetails; ShowLOTDetails) { }
+
+//             dataitem("Item Journal Line"; "Item Journal Line")
+//             {
+//                 DataItemLink = "Journal Template Name" = field("Journal Template Name");
+//                 RequestFilterFields = "Location Code";
+//                 //DataItemTableView = SORTING("Item No.", "Posting Date");
+//                 column(JLineJournal_Template_Name; "Journal Template Name") { }
+//                 column(JLineItem_No_; "Item No.") { }
+//                 column(JLinePosting_Date; "Posting Date") { }
+//                 column(JLineDocument_No_; "Document No.") { }
+//                 column(JLineDescription; Description) { }
+//                 column(JLineLocation_Code; "Location Code") { }
+//                 column(JLineBin_Code; "Bin Code") { }
+//                 column(JLineQuantity__Base_; "Quantity (Base)") { }
+//                 column(JLineQty___Calculated_; "Qty. (Calculated)") { }
+//                 column(Unit_of_Measure_Code; "Unit of Measure Code") { }
+
+//                 dataitem("Reservation Entry"; "Reservation Entry")
+//                 {
+//                     //DataItemLink = "Item No." = field("Item No.");
+
+//                     column(Item_No_; "Item No.") { }
+//                     column(Quantity__Base_; "Quantity (Base)") { }
+//                     column(Location_Code; "Location Code") { }
+
+//                     column(Lot_No_; "Lot No.") { }
+//                     column(Qty__to_Invoice__Base_; "Qty. to Invoice (Base)") { }
+//                     column(SumLotQty; SumLotQty("Item No.", "Lot No.", "Location Code")) { }
+
+//                     trigger OnPreDataItem();
+//                     begin
+//                         "Reservation Entry".SetFilter("Item No.", "Item Journal Line"."Item No.");
+//                         "Reservation Entry".SetFilter(Positive, 'true');
+//                         //"Reservation Entry".SetRange("Reservation Status", "Reservation Status"::Tracking);
+//                         "Reservation Entry".SetFilter("Location Code", "Item Journal Line"."Location Code");
+
+//                     end;
+//                 }
+//             }
+//         }
+//     }
+
+//     requestpage
+//     {
+//         layout
+//         {
+//             area(Content)
+//             {
+//                 group(Options)
+//                 {
+//                     field(ShowLotDetails; ShowLOTDetails)
+//                     {
+//                         ApplicationArea = All;
+//                         Caption = 'Show LOT details';
+//                     }
+//                 }
+//             }
+//         }
+
+//     }
+//     labels
+//     {
+//         LblItemNumber = 'Item number';
+//         LblItemDesc = 'Description';
+//         LblLocation = 'Location';
+//         LblBin = 'Bin code';
+//         LblCalculatedQty = 'Quantity (Calculated)';
+//         LblPage = 'Page :';
+//         LblReportTitle = 'Inventory list';
+//         lblInvControlby = 'Inventory control by :';
+//         LblInvBy = 'Inventory by :';
+//         LblCountedQty = 'Counted qty';
+//         LblBatchName = 'Batch name :';
+//         LblJournalName = 'Journal name :';
+//         LblDocumentNo = 'Document number';
+//         LblDate = 'Date';
+//         LblUnit = 'Unit';
+
+//     }
+
+
+//     var
+//         SEIReservationEntry: Record "Reservation Entry";
+//         ShowLOTDetails: Boolean;
+//         ShowCalculatedQty: Boolean;
+
+
+//     trigger OnInitReport()
+//     begin
+
+//         ShowLOTDetails := true;
+
+//     end;
+
+//     local procedure SumLotQty(Item: Code[20]; LotNum: Code[50]; Location: Code[10]): Decimal
+//     var
+//         SummValue: Decimal;
+//     begin
+//         SummValue := 0;
+//         SEIReservationEntry.SetFilter("Item No.", Item);
+//         SEIReservationEntry.SetFilter("Lot No.", LotNum);
+//         SEIReservationEntry.SetFilter("Location Code", Location);
+//         SEIReservationEntry.SetFilter(Positive, 'true');
+
+//         if SEIReservationEntry.Find('-') then begin //megkeresi az első rekordot
+//             repeat // a ciklus hozzáadja az actual work time-hoz az értéket, addig megy amíg nem lesz másik rekord
+//                 SummValue += SEIReservationEntry."Qty. to Invoice (Base)";
+//             until (SEIReservationEntry.Next = 0);
+//         end;
+//         exit(SummValue);
+//     end;
+// }
+
+
+
+
+//220113 Ez működik a nem tárhelyes raktárakra
+report 50029 "SEI Physical Inventory List"
+{
+    DefaultLayout = RDLC;
+    RDLCLayout = '.src/report/rdlc/Rep50029.PhysInventoryList1.rdlc';
+    ApplicationArea = Warehouse;
+    Caption = 'SEI Physical Inventory List';
+    UsageCategory = ReportsAndAnalysis;
+
+    dataset
+    {
+
+        dataitem("Company Information"; "Company Information")
+        {
+            column(Company_Name; "Company Information".Name) { }
+            column(GetWhseType; GetWhseType(InvLocationCode)) { }
+        }
+
+        dataitem("Item Journal Batch"; "Item Journal Batch")
+        {
+            RequestFilterFields = "Journal Template Name", Name;
+            column(JBatchJournal_Template_Name; "Journal Template Name") { }
+            column(JBatchName; Name) { }
+            column(ShowLOTDetails; ShowLOTDetails) { }
+
+            dataitem("Item Journal Line"; "Item Journal Line")
+            {
+                DataItemLink = "Journal Template Name" = field("Journal Template Name");
+                //RequestFilterFields = "Location Code";
+                //DataItemTableView = SORTING("Item No.", "Posting Date");
+                column(JLineJournal_Template_Name; "Journal Template Name") { }
+                column(JLineItem_No_; "Item No.") { }
+                column(JLinePosting_Date; "Posting Date") { }
+                column(JLineDocument_No_; "Document No.") { }
+                column(JLineDescription; Description) { }
+                column(JLineLocation_Code; "Location Code") { }
+                column(JLineBin_Code; "Bin Code") { }
+                column(JLineQuantity__Base_; "Quantity (Base)") { }
+                column(JLineQty___Calculated_; "Qty. (Calculated)") { }
+                column(Unit_of_Measure_Code; "Unit of Measure Code") { }
+
+
+                dataitem("Item Ledger Entry"; "Item Ledger Entry")
+                {
+                    DataItemLink = "Item No." = field("Item No.");
+
+                    column(Item_No_; "Item No.") { }
+                    column(Quantity__Base_; "Invoiced Quantity") { }
+                    column(Location_Code; "Location Code") { }
+
+                    column(Lot_No_; "Lot No.") { }
+
+                    trigger OnPreDataItem();
+                    begin
+                        "Item Ledger Entry".SetFilter("Location Code", InvLocationCode);
+                        //"Reservation Entry".SetFilter(Positive, 'true');
+                        //"Reservation Entry".SetRange("Reservation Status", "Reservation Status"::Tracking);
+                        //"Reservation Entry".SetFilter("Location Code", "Item Journal Line"."Location Code");
+
+                    end;
+                }
+            }
+        }
+    }
+
+    requestpage
+    {
+        layout
+        {
+            area(Content)
+            {
+                group(Options)
+                {
+                    field(ShowLotDetails; ShowLOTDetails)
+                    {
+                        ApplicationArea = All;
+                        Caption = 'Show LOT details';
+                    }
+                    field(InvLocationCode; InvLocationCode)
+                    {
+                        ApplicationArea = All;
+                        Caption = 'Select location';
+                        TableRelation = Location;
+                    }
+                }
+            }
+        }
+
+    }
+    labels
+    {
+        LblItemNumber = 'Item number';
+        LblItemDesc = 'Description';
+        LblLocation = 'Location';
+        LblBin = 'Bin code';
+        LblCalculatedQty = 'Quantity (Calculated)';
+        LblPage = 'Page :';
+        LblReportTitle = 'Inventory list';
+        lblInvControlby = 'Inventory control by :';
+        LblInvBy = 'Inventory by :';
+        LblCountedQty = 'Counted qty';
+        LblBatchName = 'Batch name :';
+        LblJournalName = 'Journal name :';
+        LblDocumentNo = 'Document number';
+        LblDate = 'Date';
+        LblUnit = 'Unit';
+
+    }
+
+
+    var
+        SEIReservationEntry: Record "Reservation Entry";
+        ShowLOTDetails: Boolean;
+        ShowCalculatedQty: Boolean;
+        InvLocationCode: Code[10];
+        SEILocations: Record Location;
+
+
+    trigger OnInitReport()
+    begin
+
+        ShowLOTDetails := true;
+
+    end;
+
+    local procedure GetWhseType(Location: Code[10]): Text
+    begin
+        SEILocations.Get(Location);
+        if SEILocations."Bin Mandatory" then begin
+            exit('Bin1')
+        end else begin
+            exit('Bin0')
+        end;
+    end;
+}

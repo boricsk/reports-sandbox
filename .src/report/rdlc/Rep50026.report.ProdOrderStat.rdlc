@@ -1,0 +1,1564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:DataSourceID>5f8f0c88-2ca0-486a-b2fe-e99f8da6ec0c</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>3.00271cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>3.10854cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>5.45386cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>3.08208cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.8203cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.8175cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.66252cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.65333cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.53458cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.65333cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.6cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox1">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Parameters!LblWONumber.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox1</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox3">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Parameters!LblRMItemNumber.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox3</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox5">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Parameters!LblRMDesc.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox5</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox7">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Parameters!LblRMPlannedCost.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox7</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox13">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Parameters!LblRMActualCost.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox13</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox8">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Parameters!LblCostDifference.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox8</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox23">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Parameters!LblRMPlanQty.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox23</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox21">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Parameters!LblRMActQty.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox21</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox29">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Parameters!LblQtyDiff.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox29</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox18">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Parameters!LblUnit.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox18</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.6cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox2">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!WONumber.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox4">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!RMItem_No_.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox4</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox6">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!RMDescription.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Format>#,0.00'€';(#,0.00'€')</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox6</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>de-DE</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox20">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!RMCost_Amount.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Format>#,0.00'€';(#,0.00'€')</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox17</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>de-DE</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox10">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!SumCostOfConsumption.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Format>#,0.00'€'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox10</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>fr-FR</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                        <rd:Selected>true</rd:Selected>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox12">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!RMCost_Amount.Value + Fields!SumCostOfConsumption.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Format>#,0.00'€';-#,0.00'€';'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox12</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <rd:FormatSymbolCulture>en-NL</rd:FormatSymbolCulture>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox19">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!RMExpected_Quantity.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox19</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox22">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!SumConsumption.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox22</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox30">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!RMExpected_Quantity.Value + Fields!SumConsumption.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox30</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox24">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!RMUnit_of_Measure_Code.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox24</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                </TablixMember>
+                <TablixMember>
+                  <Group Name="Details">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!WONumber.Value</GroupExpression>
+                      <GroupExpression>=Fields!RMItem_No_.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet_Result</DataSetName>
+            <Top>0.17639cm</Top>
+            <Left>0.26141cm</Left>
+            <Height>1.2cm</Height>
+            <Width>26.78875cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+        </ReportItems>
+        <Height>4.266cm</Height>
+        <Style />
+      </Body>
+      <Width>27.4cm</Width>
+      <Page>
+        <PageHeader>
+          <Height>2.16958cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Image Name="Image1">
+              <Source>Embedded</Source>
+              <Value>SEI</Value>
+              <Sizing>FitProportional</Sizing>
+              <Top>0.31432cm</Top>
+              <Left>0.26141cm</Left>
+              <Height>1.67887cm</Height>
+              <Width>2.7413cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+              </Style>
+            </Image>
+            <Textbox Name="Textbox9">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=User!UserID</Value>
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox9</rd:DefaultName>
+              <Top>0.31432cm</Top>
+              <Left>21.58812cm</Left>
+              <Height>0.6cm</Height>
+              <Width>5.46204cm</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox11">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Parameters!LblReportTitle.Value</Value>
+                      <Style>
+                        <FontStyle>Italic</FontStyle>
+                        <FontSize>14pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox11</rd:DefaultName>
+              <Top>0.31432cm</Top>
+              <Left>3.1791cm</Left>
+              <Height>0.75875cm</Height>
+              <Width>18.26791cm</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox16">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Globals!ExecutionTime</Value>
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox9</rd:DefaultName>
+              <Top>1.09071cm</Top>
+              <Left>21.58812cm</Left>
+              <Height>0.6cm</Height>
+              <Width>5.46204cm</Width>
+              <ZIndex>3</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox25">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!RMLocationCode.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox25</rd:DefaultName>
+              <Top>1.24946cm</Top>
+              <Left>3.14382cm</Left>
+              <Height>0.6cm</Height>
+              <Width>2.29398cm</Width>
+              <ZIndex>4</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox26">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!StartingDate.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontWeight>Bold</FontWeight>
+                        <Format>d</Format>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox26</rd:DefaultName>
+              <Top>1.24946cm</Top>
+              <Left>5.61419cm</Left>
+              <Height>0.6cm</Height>
+              <Width>2.47354cm</Width>
+              <ZIndex>5</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox27">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!EndingDate.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontWeight>Bold</FontWeight>
+                        <Format>d</Format>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox26</rd:DefaultName>
+              <Top>1.24946cm</Top>
+              <Left>8.26412cm</Left>
+              <Height>0.6cm</Height>
+              <Width>2.47354cm</Width>
+              <ZIndex>6</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>1.37583cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox15">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Globals!PageNumber</Value>
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox15</rd:DefaultName>
+              <Top>0.44042cm</Top>
+              <Left>25.23808cm</Left>
+              <Height>0.6cm</Height>
+              <Width>1.81208cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox17">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Parameters!LblPage.Value</Value>
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox15</rd:DefaultName>
+              <Top>0.44042cm</Top>
+              <Left>23.32016cm</Left>
+              <Height>0.6cm</Height>
+              <Width>1.81208cm</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Line Name="Line1">
+              <Top>0.17584cm</Top>
+              <Height>0cm</Height>
+              <Width>27.4cm</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+              </Style>
+            </Line>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <PageHeight>21.59cm</PageHeight>
+        <PageWidth>27.94cm</PageWidth>
+        <LeftMargin>0.5cm</LeftMargin>
+        <RightMargin>0cm</RightMargin>
+        <TopMargin>0.5cm</TopMargin>
+        <BottomMargin>0cm</BottomMargin>
+        <ColumnSpacing>1.27cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="LblWONumber">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblWONumber</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblWONumber</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblRMItemNumber">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblRMItemNumber</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblRMItemNumber</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblRMDesc">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblRMDesc</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblRMDesc</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblRMPlannedCost">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblRMPlannedCost</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblRMPlannedCost</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblRMActualCost">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblRMActualCost</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblRMActualCost</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblRMPlanQty">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblRMPlanQty</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblRMPlanQty</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblRMActQty">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblRMActQty</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblRMActQty</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblCostDifference">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblCostDifference</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblCostDifference</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblTimeDifference">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblTimeDifference</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblTimeDifference</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblReportTitle">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblReportTitle</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblReportTitle</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblPage">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblPage</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblPage</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblUser">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblUser</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblUser</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblUnit">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblUnit</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblUnit</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LblQtyDiff">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LblQtyDiff</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LblQtyDiff</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>1</NumberOfColumns>
+      <NumberOfRows>14</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>LblWONumber</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>LblRMItemNumber</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>LblRMDesc</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>LblRMPlannedCost</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>LblRMActualCost</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>LblRMPlanQty</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>LblRMActQty</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>7</RowIndex>
+          <ParameterName>LblCostDifference</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>8</RowIndex>
+          <ParameterName>LblTimeDifference</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>9</RowIndex>
+          <ParameterName>LblReportTitle</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>10</RowIndex>
+          <ParameterName>LblPage</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>11</RowIndex>
+          <ParameterName>LblUser</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>12</RowIndex>
+          <ParameterName>LblUnit</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>13</RowIndex>
+          <ParameterName>LblQtyDiff</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <EmbeddedImages>
+    <EmbeddedImage Name="SEI">
+      <MIMEType>image/bmp</MIMEType>
+      <ImageData>Qk3+WgAAAAAAADYAAAAoAAAAbgAAAEYAAAABABgAAAAAAMhaAAAAAAAAAAAAAAAAAAAAAAAA////////7uDW//////////////////////////////////////////////////////////////////////////////////////////////////////////7//f7/////////////////////////////////////////////////////////////////////////////////////////////////////////+fTx////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////SqYCpUQDdvp7///////////////////////////////////////////////////////////////////////////////////////////////////+nTgDWsIn////////////////////////////////////////////////////////////////////////////////////////////////////hxKStWwDlzrn///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////9axjatUAKpTALJlDufQwP//////////////
+/////////////////////////////////////////////////////////////////////////////6pVAKpUAK5cAN2/pP///////////////////////////////////////////////////////////////////////////////////////////+XMs6lQAKlSALZtG+7e0P///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////////1rGNrFcAsGAAr10AqVAAtm8f7uDT////////////////////////////////////////////////////////////////////////////////////q1cAsGAAsF4AqlMAsGAI48q1////////////////////////////////////////////////////////////////////////////////////5cyzqlQAsGAArFYAwoZA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////UrIaqVACxYQGxYQGwYACvXACnTgDAgT717er///////////////////////////////////////////////////////////////////////////+rVwCwYACxYQGwYACvXgCpUQC2bRzp18T/////
+///////////////////////////////////////////////////////////////////////lzLOqVACxYQGtWgDGjk3///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////+3d0LBgCqpSAK9eALFgALFhAbBgAK5aAKlRAMaPVP39/////////////////////////////////////////////////////////////////////6tXALBgALFhAbFgALBgALFhAa9dAKlQALp2Ku/i2v///////////////////////////////////////////////////////////////////+XMs6pUALFhAa1aAMaOTv///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////////////////38Gir18CqlMAsF4AsWEBsWEBsGAArVkAqFAAz6J1////////////////////////////////////////////////////////////////q1cAsGAAsWAAsGAAq1YAr14AsWAAsGAArlwAqE8Av4A/9e/s////////////////////////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////////////////buZauXQCqVACwXwCxYQGxYQGwYACsVgCrVwDZtZH///////////////////////////////////////////////////////+rVwCwYACwYACtWwDjy7qxZA2qUwCwXwCxYQGwYACuWwCoTwDFjE359vf////////////////////////////////////////////////////lzLOqVACxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////////////////////////////9q4l6pVAKtWALBfALFgALFhAbBfAKpTALRoE/Pp4////////////////////////////////////////////////6tXALBgALBgAKpUAP///////9y9m61ZAKtUALBfALFhAbBgAK1ZAKlSAMyaaP7//////////////////////////////////////////////+XMs6pUALFhAa1aAMaOTv//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////wAA////////////////////////////////////////1ayFqlYAq1YAsF8AsWEBsWAAr10Apk0A3b6f////////////////////////////////////////////q1cAsGAAsGAAqlQA////////////////17KMq1cAq1YAsF8AsWEBsGAArFgAqVEA0qh8////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////////////////////////////////////////Uq4KsWACsVwCwYACxYQGwYACnTQDXso////////////////////////////////////////+rVwCwYACwYACqVAD////////////////////////TqoCrVgCsVgCwYACxYQGvXgCsWQD////////////////////////////////////////lzLOqVACxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////////////////////////////////////////////////////82d
+a6dNALBfALFhAbBgAKdOAODDqP///////////////////////////////////6tXALBgALBgAKpUAP///////////////////////////////9CidqhRAKxYAK9eALBgAf///////////////////////////////////////+XMs6pUALFhAa1aAMaOTv///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////////////////////////////////////////////////////////////7d3RqlMAsF8AsWEBsGAAp04A+fb5////////////////////////////////q1cAsGAAsGAAqlQA/////////////////////////////////////v7/y5pqpkwArFkA////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////////////////////////////////////////////////////////v4deoTwCwYACxYQGtWgDAgj////////////////////////////////+rVwCwYACwYACqVAD/////////////////////////////////////
+///////7+frHkFj////////////////////////////////////////lzLOqVACxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////////////////////////////////////////////////////////////////9y7napUALBgALBgAKhQAPn19v///////////////////////////6tXALBgALBgAKpUAP///////////////////////////////////////////////////////////////////////////////////////////+XMs6pUALFhAa1aAMaOTv///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////////////////////////////////////////////////////////////////////////smYOr14AsWEBq1UA27iU////////////////////////////q1cAsGAAsGAAqlQA////////////////////////////////////////////////////////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////////////////////////////////////////////////////////////////TqoGsVwCxYQGtWQDIklf///////////////////////////+rVwCwYACwYACqVAD////////////////////////////////////////////////////////////////////////////////////////////lzLOqVACxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////////////////////////////////////////////////////////////////////+LHp6tVALFhAa5bAL6AP////////////////////////////6tXALBgALBgAKpUAP///////////////////////////////////////////////////////////////////////////////////////////+XMs6pUALFhAa1aAMaOTv//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////wAA////////////////////////////////////////////////////////////////////////5Mqqq1QAsWEBrlsAwIND////////////////////////////q1cAsGAAsGAAqlQA////////////////////////////////////////////////////////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////////////////////////////////////////////////////////////////UrISsVwCxYQGtWQDJlVr///////////////////////////+rVwCwYACwYACqVAD////////////////////////////////////////////////////////////////////////////////////////////lzLOqVACxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////////////////////////////////////////////////////////////////////69e
+ArBeALFhAatVAN28nP///////////////////////////6tXALBgALBgAKpUAP///////////////////////////////////////////////////////////////////////////////////////////+XMs6pUALFhAa1aAMaOTv///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////////////////////////////////////////////////////////////////////wYVHrVgAsWAAsGAAqFAA+fX2////////////////////////////q1cAsGAAsGAAr10AtGoV59LB////////////////////////////////////////////////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////////////////////////////////////////////9/P7x5eLXsYqvYAStWACwYACxYQGuWwC7ejX///////////////////////////////+rVwCwYACxYQGwYACvXQCpUQC2biDv4df/////////////////////////////////////
+///////////////////////////////////////lzLOqVACxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP////////////////////////r29uvZzNu3k86fbsCAOrZtGqxZAKdOAKlSAKxXAK9eALBgALFhAbBfAKZLAPTq5f///////////////////////////////6tXALBgALFhAbFhAbFhAbBgAK9cAKdOAL5+OPPp4////////////////////////////////////////////////////////////////////+XMs6pUALFhAa1aAMaOTv///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////////////////7d7TuXQnqVIAqVIAq1YArVgArlsAr10AsF8AsWEBsWEBsWEBsWEBsGAArlsApkwA4sav////////////////////////////////////q1cAsGAAsWEBsGAAr10AsGAAsWEBsGAArlsAqFAAxYtN+fX3////////////////////////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////XsoymTACuXACwYACxYQGxYQGxYQGwYACwXwCwXwCvXgCuXACtWQCrVQCoUAC7eDH17ur///////////////////////////////////////+rVwCwYACwYACwXwC8ejWpUQCvXQCxYQGxYQGwYACtWQCoUADKlmH////////////////////////////////////////////////////////lzLOqVACxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////+PLt6ZLALBgALFhAbFhAa9eAKxYAKpTAKhQAKxZALBhBLNmCbt3MMyaYd2+oPjz9P///////////////////////////////////////////////6tXALBgALBgAKpVAP///+jSwLRoE6lSAK9eALFhAbFhAbBgAKxYAKlSANCjdP///////////////////////////////////////////////+XMs6pUALFhAa1aAMaOTv//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////wAA////////rFkAsF8AsWEBsGAAq1UAr2AH0KJy59PD9/Dp/v7/////////////////////////////////////////////////////////////////////////q1cAsGAAsGAAqlQA////////////4MOnrl0CqlQAsF8AsWEBsWEBsGAAo0YA////////////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////ev5+qUwCxYQGwYACpUQDTqoT///////////////////////////////////////////////////////////////////////////////////////////+rVwCwYACwYACqVAD////////////////////ZtJOpUwCsVwCwXwCxYQGoTgD////////////////////////////////////////////////lzLOqVACxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///8KHSK5aALFhAa1ZAMuaZv//////////////////////////////////////////////////////////////////
+/////////////////////////////6tXALBgALBgAKpUAP///////////////////////////9CjdKpUAK1YAKdOAP///////////////////////////////////////////////+XMs6pUALFhAa1aAMaOTv///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////tm0Wr10AsWEBqVEA9u/s////////////////////////////////////////////////////////////////////////////////////////////////q1cAsGAAsGAAqlQA/////////////////////////////////Pz/yJNdnz4A////////////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD///+xZAyvXgCxYQGoTwD///////////////////////////////////////////////////////////////////////////////////////////////////+rVwCwYACwYACqVAD////////////////////////////////////////x5dv9/Pr/////////////////////
+///////////////////////lzLOqVACxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///7ZtF69dALFhAalQAPj08v///////////////////////////////////////////////////////////////////////////////////////////////6tXALBgALBgAKpUAP///////////////////////////////////////////////////////////////////////////////////////////+XMs6pUALFhAa1aAMaOTv///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////xItMrVoAsWEBq1UA38Kn////////////////////////////////////////////////////////////////////////////////////////////////q1cAsGAAsGAAqlQA////////////////////////////////////////////////////////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////ix66qUgCxYQGvXgCwYQj///////////////////////////////////////////////////////////////////////////////////////////////+rVwCwYACwYACqVAD////////////////////////////////////////////////////////////////////////////////////////////lzLOqVACxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////61bALBeALFhAaxXAMOJTf///////////////////////////////////////////////////////////////////////////////////////////6tXALBgALBgAKpUAP///////////////////////////////////////////////////////////////////////////////////////////+XMs6pUALFhAa1aAMaOTv//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////wAA////////5Mq1p00AsWAAsWEBq1UAu3gv+vb3////////////////////////////////////////////////////////////////////////////////////q1cAsGAAsGAAqlQA////////////////////////////////////////////////////////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////GkFmqUwCwYACxYQGuWwCpUQDMmmb///////////////////////////////////////////////////////////////////////////////+rVwCwYACwYACqVQD////////////////////////////////////////////////////////////////////////////////////////////lzLOqVACxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////////////8OKUqlRALBgALFhAbBgAKxYAKlSANKnff//////////////////////////////////////////////////////////
+/////////////6pVALBgALBgAK9dALFkDuPJs////////////////////////////////////////////////////////////////////////////////////+XMs6pUALFhAa1aAMaOTv///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////////////////////06uCp04ArlwAsWEBsWEBsGAAq1YArFkA27qZ////////////////////////////////////////////////////////////////qVQAq1YAsGAAsGAAr14AqVEAs2YT5Mq0////////////////////////////////////////////////////////////////////////////5cyzqlQAsWEBrVoAxo5O////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////////////////x5t+3cSSoTwCvXQCwYACxYQGwXwCqUwCxZA7kyrb////////////////////////////////////////////////////////////QonWoUQCsWACwYACxYQGvXQCpUgCzaBTjybT/////////////////////////////////////////////////////////////
+///////ly7CqUwCxYQGtWgDGjk7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////////////////////////////+jTwrJmEKpSAK9eALFhALFhAa9eAKlRALZsG+zcz////////////////////////////////////////////////////////////8yca6hQAK1YALBgALBgAK9dAKlSALJmEeTMuP///////////////////////////////////////////////////////////+rXxqRHAK1aAK1aAMaOTv///////9Knevjz8P///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////////////////////////////////////////4MOqsGAHqlMAsF8AsWEBsGAAr10AokIA9/L0////////////////////////////////////////////////////////////+/r9yZVeqFAArVkAsGAAsGAAr10AqVEAs2cV5c25////////////////////////////////////////////////////////+PLxwYRFpUkAxIlG////////u3ospksAypdj/f3/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////////////////////////////////////////auJmsWACrVQCwYACxYQGoUAD48/X////y6eXCh0r9/f/////////////////////////////////////////////////////48/HFjE6oTgCtWgCwYACxYQGvXQCpUQC0aRbn0r7////////////////////////////////////////////////////////t3tPPoXL///////+/gDeuWwCsWACqVADRpXn///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////////////////////////////////////////////////////9Ssg6hRAKxXAKhPAPjz9f////Xv8KZKAKlRAM+gbv////////////////////////////////////////////////////////Xu68GGRahOAK5bALBgALBgAK1YALp4Kf///////////////////////////////////////////////////////////////////////7t4Kq1ZALBgALBfAKxWAKtWANavhf///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////////
+////////////////////////////////////////////////////////zZ1sokMA9/Dx////9e/xqlMAsF8ArFcAqlUA17GN////////////////////////////////////////////////////////8ebfvn45qFAArlwArlsAv4A3////////1KyH2riU////////////////////////////////////////////////////////5c23sWMMqlMAsF4AsWEBsF8Aq1UArVoA3Lue////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////////////////////////////////////////////////////////////17en59fL////07O2mSwCwYACxYQGwXwCrVACvXgPevp/////////////////////////////////////////////////////////v4Ne6di2mSgC9fDH////////Uq4SlSQCyZxLlzbr////////////////////////////////////////////////////////dvZ2tWwCrVQCwXwCxYACwXwCqUwCwYgrjybD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////86fa6hQAK1YALBgALFhAa9eAKpTALJjC+XOvP//
+/////////////////////////////////////////////////////+rXysWOU////////9Wth6xXAK9dAKlRALZvH+3d0P///////////////////////////////////////////////////////9exjKlTAKxXALBfALFhAa9eAKlSALRpE+jUwv///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAA/////////////////////////////////////////////////////////////////////////////////////////f3/yZRfqFEArVoAsGAAsGAAr14AqVAAtW0f7d3Q////////////////////////////////////////////////////////////////0qZ8qVEAsGAAsGAAr10Ap04AvHkv8+nk////////////////////////////////////////////////////////z6FzqlQArFgAsGAAsGAAr10AqFAAt3Im7t/V////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAD////////////////////////////////////////////////////////////////////////////////////////////////38fHChkaoTwCuWwCwYACxYQGvXQCoTwC9ezLy5+P////////////////////////////////////////////////////////38e6/gDqoTwCuXACwYACxYQGuWwCoTwDDiUz48/P/////
+///////////////////////////////////////////////8/P/LmWCoTwCtWQCwYACxYACuXACoTwC+fjfz6eT///////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAP////////////////////////////////////////////////////////////////////////////////////////////////////////Pp4rx7NadOAK9cALBgALBgAK5bAKlRAMGGR/r2+P////////////////////////////////////////////////////////Dj27dwJqhQAK9dALBgALBgAK1aAKhQAMqWX/////////////////////////////////////////////////////////n19sSKTadNAK5bALBgALBgAK5bAKhQAMOIR/n19P///////////////////////////////////////////////////////////////////////////////////////////////////////////wAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////7d3Tt3AjqVEAr10AsWEBsGAArVoAp00AyZVd/fz/////////////////////////////////////////////////////////6NPBtGkUqVIAr14AsWEBsGAArVgAqFAA0KR4////////////////////////////////////////////////////////9u/uvn47qVAArlwAsGAAsGAArVoAp00AyZNe/Pv+////////////
+////////////////////////////////////////////////////////////////////////////////////////AAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////mz7qzaBKpUQCwXwCxYQGwYACsWACqUwDQpHf////////////////////////////////////////////////////////////ix62vXwaqVACwXwCxYQGwYACsVgCsWADYtI/////////////////////////////////////////////////////////u39K6dyuoTwCvXQCxYQGwYACtWACpUgDPoHH///////////////////////////////////////////////////////////////////////////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+HFrKxaAKtUALBfALFhAbBfAKxWAKxXANizjv///////////////////////////////////////////////////////////9q3lapUAKxWALBfALFhAbBfAKpUAK9eAODErf///////////////////////////////////////////////////////+rYyLNnFalRAK9eALFhAbBgAKxXAKtWANSqfv///////////////////////////////////////////////////////////////////////////////////////wAA////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////2bSSrFoAq1UAsF8AsWEBsF8Aq1UArFkA38Cj////////////////////////////////////////////////////////////0aV3qlQArFgAsGAAsWEBr14AqVIAsmQP59LA////////////////////////////////////////////////////////5Mu4sWQNqlMAr14AsWEBsF8Aq1UAq1cA27ia////////////////////////////////////////////////////////////////////////////////AAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Tqn+qUwCsVwCwYACwYACwXwCpUgCzZxTmz7z////////////////////////////////////////////////////////+/v/LmGSoUQCtWgCwYACwYACvXgCoTwC5dCbu3tL////////////////////////////////////////////////////////dvZuuXQCrVACwXwCxYQGwXwCqUwCvXwXhxar///////////////////////////////////////////////////////////////////////8AAP//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////7//82caqdOAK1ZALBgALFhAK9dAKlRALhxIu3d0v////////////////////////////////////////////////////////j08sOISadNAK5bALBgALFhAa5cAKlRAL1+OvTt6v///////////////////////////////////////////////////////9izj6lUAKxWALBfALFhAa9eAKlSALRpFOXNt////////////////////////////////////////////////////////////////wAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+/r+xo5TqE8ArloAsGAAsGAAr1wAqE8AvHku8+rm////////////////////////////////////////////////////////9OzpvHkzqVAArlwAsGAAsGAArlsAqE4AxItP+vj5////////////////////////////////////////////////////////0aR6qVMArFgAsGAAsGAAr10AqVEAtm0f7NzP////////////////////////////////////////////////////////AAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////27uu/gTyoUACuXACxYACwYACuWwCnTQDEik348/L/////////////////////////////////////////////////
+///////s2863cCCpUACvXgCxYQGwYACtWQCoTwDMnG39///////////////////////////////////////////////////////+/f/LmGKpUQCtWQCwYACwYACvXQCoTwC7eDDx5d7///////////////////////////////////////////////8AAP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Di2bt3LqhOAK9dALBgALBgAK1ZAKlSAMmWX/7//////////////////////////////////////////////////////////+XNuLFjDapSALBfALFhAbBgAKxXAKtWANOpf/////////////////////////////////////////////////////////n298WMUKdNAK5bALBgALBgAK5bAKhPAMGFQfbv6////////////////////////////////////////wAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////69vOs2kWqVIAr10AsWEBsGAArFgAqVIA0aR5////////////////////////////////////////////////////////////3r+krFkAq1UAsF8AsWEBsF8Aq1UArFkA27iT////////////////////////////////////////////////////////
+9u7sv4FAqE8ArlwAsGAAsGAArVoAqE8AxY5U/Pr9////////////////////////////////AAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////jyrGyZQ+qUgCwXwCxYQGwYACsVgCqUwDatpT////////////////////////////////////////////////////////////VrYOsVwCsVwCwYACxYQGwXwCqVACuXgXjyLD////////////////////////////////////////////////////////w49m6dSepUACvXQCxYQGwYACtWQCoUADMm2n+/v////////////////////////8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////929n61aAKtVALBfALFhAbBfAKpUAK9fA97Aof///////////////////////////////////////////////////////////82fcKhRAK1ZALBgALFhAa9eAKlRALVsGujUwv///////////////////////////////////////////////////////+rYybVsHKlQAK9eALBgALBgAKxXAKpUANOpff///////////////////wAA////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////17GMqlQArFYAsF8AsWEBr14AqlIAsmYQ59HA/////////////////////////////////////////////////////////Pr8x49Up04ArlsAsGAAsGAAr10AqVAAunQo8OTd////////////////////////////////////////////////////////48u2sWQPqlIAsF4AsWEBsF8Aq1YArFkA17CM////////////AAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////QpHWqVACsWACwYACwYACvXQCoUAC1bR7w4dX////////////////////////////////////////////////////////38e+/gT+oUACuXACxYQGwYACuXACnTgC+fzr8+vv////////////////////////////////////////////////////////fwaGuXQCrVACwXwCxYQGwXwCrVACtWwDfwqf///8AAP//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////39/8iUX6hRAK1aALBgALFhAaxWAMKFQP///////////////////////////////////////////////////////////////+/i2rl2KahPAK9dALBgALBgAKdMAOzd1f///////////////////////////////////////////////////////////////9izj6xYAKtWALBgALFhAa9cAK1cAP///wAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+PPyw4lKp0wArlsArVoAxo5O////////////////////////////////////////////////////////////////////////6dXDs2cSqVIAr14AqVIA7uDa////////////////////////////////////////////////////////////////////////0aZ7qFEArFgAr10AsWUO////AAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////07Oi+fTilSgDEikb/////////////////////
+///////////////////////////////////////////////////////////hxa6wYQijRQDt39j////////////////////////////////////////////////////////////////////////////////MmmeoTwCuXgH///8AAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+rYyc+hdP///////////////////////////////////////////////////////////////////////////////////////9Opfezd0/////////////////////////////////////////////////////////////////////////////////////n19MeSXv///wAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////AAA=</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="WONumber">
+          <DataField>WONumber</DataField>
+        </Field>
+        <Field Name="SEI_First_Capacity_Entry_Date">
+          <DataField>SEI_First_Capacity_Entry_Date</DataField>
+        </Field>
+        <Field Name="SEI_Last_Capacity_Entry_Date">
+          <DataField>SEI_Last_Capacity_Entry_Date</DataField>
+        </Field>
+        <Field Name="SEI_Finished_DateTime">
+          <DataField>SEI_Finished_DateTime</DataField>
+        </Field>
+        <Field Name="StartingDate">
+          <DataField>StartingDate</DataField>
+        </Field>
+        <Field Name="EndingDate">
+          <DataField>EndingDate</DataField>
+        </Field>
+        <Field Name="Prod__Order_No_">
+          <DataField>Prod__Order_No_</DataField>
+        </Field>
+        <Field Name="RMItem_No_">
+          <DataField>RMItem_No_</DataField>
+        </Field>
+        <Field Name="RMDescription">
+          <DataField>RMDescription</DataField>
+        </Field>
+        <Field Name="RMExpected_Quantity">
+          <DataField>RMExpected_Quantity</DataField>
+        </Field>
+        <Field Name="RMExpected_QuantityFormat">
+          <DataField>RMExpected_QuantityFormat</DataField>
+        </Field>
+        <Field Name="RMRemaining_Quantity">
+          <DataField>RMRemaining_Quantity</DataField>
+        </Field>
+        <Field Name="RMRemaining_QuantityFormat">
+          <DataField>RMRemaining_QuantityFormat</DataField>
+        </Field>
+        <Field Name="RMCost_Amount">
+          <DataField>RMCost_Amount</DataField>
+        </Field>
+        <Field Name="RMCost_AmountFormat">
+          <DataField>RMCost_AmountFormat</DataField>
+        </Field>
+        <Field Name="RMUnit_Cost">
+          <DataField>RMUnit_Cost</DataField>
+        </Field>
+        <Field Name="RMUnit_CostFormat">
+          <DataField>RMUnit_CostFormat</DataField>
+        </Field>
+        <Field Name="RMLocationCode">
+          <DataField>RMLocationCode</DataField>
+        </Field>
+        <Field Name="RMUnit_of_Measure_Code">
+          <DataField>RMUnit_of_Measure_Code</DataField>
+        </Field>
+        <Field Name="SumConsumption">
+          <DataField>SumConsumption</DataField>
+        </Field>
+        <Field Name="SumConsumptionFormat">
+          <DataField>SumConsumptionFormat</DataField>
+        </Field>
+        <Field Name="SumCostOfConsumption">
+          <DataField>SumCostOfConsumption</DataField>
+        </Field>
+        <Field Name="SumCostOfConsumptionFormat">
+          <DataField>SumCostOfConsumptionFormat</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

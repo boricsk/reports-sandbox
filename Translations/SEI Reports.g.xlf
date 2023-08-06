@@ -1,0 +1,2234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="SEI Reports">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2720362161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI POC Master data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3532935625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Area</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Area - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1125345578 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival date 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival date 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3507223023 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival date 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival date 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 4144919640 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival date 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival date 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3038435429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival date 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival date 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3676132046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival date 5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival date 5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1763042195 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival date 6</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival date 6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2400738812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival date 7</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival date 7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3712749922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival qty 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival qty 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1799660071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival qty 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival qty 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2437356688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival qty 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival qty 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1330872477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival qty 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival qty 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1968569094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival qty 5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival qty 5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 55479243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival qty 6</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival qty 6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 693175860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Arrival qty 7</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Arrival qty 7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2705767259 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business year</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Business year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2975267803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coil LT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Coil LT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3468194771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Comment 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3815729245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completely arrive date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Completely arrive date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1966432893 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completely arrived</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Completely arrived - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2789977029 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirmed ETA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Confirmed ETA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1255130221 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirmed ETA (Modified)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Confirmed ETA (Modified) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 876887178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirmed ETD</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Confirmed ETD - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 459655806 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Currency code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 274438262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cut LT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Cut LT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3400342230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date of confirmation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Date of confirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1524302677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date of order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Date of order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3038687071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delay in days</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Delay in days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1291328713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delayed quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Delayed quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1580895485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish LT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Finish LT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 363800452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fist shipment LT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Fist shipment LT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1957550397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Item description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 231200594 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Item number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1495941046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last shipment LT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Last shipment LT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3366721870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Line amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3465500804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Month</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Month - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2475796201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>On time quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field On time quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2577921828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>On time status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field On time status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1345113606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Line number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field PO Line number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1183315192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field PO Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 446638876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Remaining qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1401522140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested LT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Requested LT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2745487558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requesterd ETA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Requesterd ETA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2066748122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment on way</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Shipment on way - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 591008184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Shipping unit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 375106785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SO number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field SO number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 2738010367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Spec LT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Spec LT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 55222080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Supplier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Supplier - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3223862125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Supplier name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Supplier name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 3732224266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Test - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1405426649 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Unit of measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2720362161 - Field 1843407901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SEI POC Master data - Field Unit price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3049098181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>POC Card Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page POC Card Page - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3049098181 - NamedType 3464327134" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data update has been completed!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page POC Card Page - NamedType lblUpdateComplete</note>
+        </trans-unit>
+        <trans-unit id="Page 2352845997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Credit Note All</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Credit Note All - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2352845997 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Credit Note All - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2352845997 - Action 4125097576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the document that the selected line exists on.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Credit Note All - Action Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2352845997 - Action 4125097576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Credit Note All - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2362848592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Employee Equipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Employee Equipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1404755579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Item reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Item reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI POC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - NamedType 3464327134" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data update has been completed!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - NamedType lblUpdateComplete</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Control 363800452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>First shipment LT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Control Fist shipment LT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Control 3465500804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>-BY- Month</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Control Month - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 617373955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run on time delivery report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action OTDReport - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 617373955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OTD Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action OTDReport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 1553741435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View all data.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action ClearFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 1553741435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action ClearFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 1627708651 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show finish orders only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 1627708651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter10 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 2265405268 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show shielded orders only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 2265405268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shielded</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter11 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 3079769974 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show shipments are on way.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 3079769974 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>On way shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 2442073357 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hide arrived shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 2442073357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hide arrived</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 3548557568 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show FFC orders only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 3548557568 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FFC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 2910860951 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show MDH orders only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 2910860951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MDH</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 528983506 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show AH orders only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 528983506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AH</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 4186254185 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Specmat orders only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 4186254185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SPEC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 997771100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show cut orders only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 997771100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cut</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 360074483 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show coil orders only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 360074483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coil</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Filter9 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 642782499 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In date change case of PO you can update POC data to new ones.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Update - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 9587381 - Action 642782499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update ETA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI POC - Action Update - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2586912809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Released WO Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Released WO Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2586912809 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Released WO Lines - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2586912809 - Action 4125097576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the document that the selected line exists on.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Released WO Lines - Action Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2586912809 - Action 4125097576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Released WO Lines - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1378498149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Reservation entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Reservation Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 669647319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Sales Archive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Archive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 669647319 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Archive - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 669647319 - Action 4125097576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the document that the selected line exists on.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Archive - Action Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 669647319 - Action 4125097576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Archive - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 915927883 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Sales Invoice Line All</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Invoice Line All - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 915927883 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Invoice Line All - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 915927883 - Action 4125097576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the document that the selected line exists on.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Invoice Line All - Action Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 915927883 - Action 4125097576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Invoice Line All - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1893125873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Sales Order Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1893125873 - Control 3463151987 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request changed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Order Line - Control isRequestChanged - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1893125873 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Order Line - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1893125873 - Action 4125097576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the document that the selected line exists on.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Order Line - Action Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1893125873 - Action 4125097576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Order Line - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1129327962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Sales Order Line All</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Order Line All - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1129327962 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Order Line All - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1129327962 - Action 4125097576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the document that the selected line exists on.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Order Line All - Action Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1129327962 - Action 4125097576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Order Line All - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488351736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Sales Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488351736 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Shipments - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488351736 - Action 4125097576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the document that the selected line exists on.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Shipments - Action Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2488351736 - Action 4125097576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Shipments - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488351736 - Action 617373955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run on time delivery report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Shipments - Action OTDReport - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2488351736 - Action 617373955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OTD Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Shipments - Action OTDReport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Whse. Receipt Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Control 47657272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Control Description 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Control 3712988575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estimated Arrival Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Control Estimated Arrival Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Control 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Control Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Control 2938170512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Long Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Control LongDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Control 387971303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Control Purchase Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Control 714568894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receive qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Control Qty. to Receive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Control 2638761656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Doc. Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Control Shipment Document Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Control 55222080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Supplier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Control Supplier - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Action 4125097576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the document that the selected line exists on.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Action Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1235001435 - Action 4125097576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 208440349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Capacity Ledger Entry With Modifier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Cap. Ledger With Modifier - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1294379758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Capacity Ledger Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Capacity Ledger Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2434873332 - ReportLabel 1899496202" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirmed date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Changed orders - ReportLabel LblConfimDate</note>
+        </trans-unit>
+        <trans-unit id="Report 2434873332 - ReportLabel 4180292353" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Changed orders - ReportLabel LblItem</note>
+        </trans-unit>
+        <trans-unit id="Report 2434873332 - ReportLabel 3215689246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Changed orders - ReportLabel LblOpenQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2434873332 - ReportLabel 4291097250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Changed orders - ReportLabel LblOrderNumberNAV</note>
+        </trans-unit>
+        <trans-unit id="Report 2434873332 - ReportLabel 643245275" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Changed orders - ReportLabel LblPage</note>
+        </trans-unit>
+        <trans-unit id="Report 2434873332 - ReportLabel 60624386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Changed orders - ReportLabel LblPostingDate</note>
+        </trans-unit>
+        <trans-unit id="Report 2434873332 - ReportLabel 2484858426" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Changed orders - ReportLabel LblQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2434873332 - ReportLabel 3826146452" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Changed orders - ReportLabel LblReguestedDate</note>
+        </trans-unit>
+        <trans-unit id="Report 2434873332 - ReportLabel 1883811193" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAP PO number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Changed orders - ReportLabel LblSAPPO</note>
+        </trans-unit>
+        <trans-unit id="Report 2434873332 - ReportLabel 340283688" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAP SO number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Changed orders - ReportLabel LblSAPSO</note>
+        </trans-unit>
+        <trans-unit id="Report 2434873332 - Control 743685791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Changed orders - Control location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1187123261 - ReportLabel 733405153" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Delivery Note - ReportLabel LblCustItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 2439513082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Inventory Movement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Inventory Movement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2439513082 - NamedType 22696651" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Inventory Movement - NamedType ActivityTypeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2439513082 - NamedType 4038298711" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Movement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Inventory Movement - NamedType InventoryMovementCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2439513082 - NamedType 650077689" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Inventory Movement - NamedType PageCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2439513082 - NamedType 443421780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Inventory Movement - NamedType PostingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2439513082 - ReportColumn 2364879599 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Put-away,Pick,Movement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Inventory Movement - ReportColumn ActivityType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 2439513082 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Inventory Movement - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2439513082 - Control 2364879599 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the inventory movement activity that a warehouse employee will follow to move items.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Inventory Movement - Control ActivityType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2439513082 - Control 2364879599 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Inventory Movement - Control ActivityType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2439513082 - Control 2364879599 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Put-away,Pick,Movement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Inventory Movement - Control ActivityType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 1411865850 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI MH Followup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI MH Followup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1411865850 - Control 1703530253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Basic filter data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI MH Followup - Control Select filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI On Time Delivery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 1175492199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OTD report based on confirmation date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel lblBasedOnConfirmation</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 2367901846" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OTD report based on requested date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel lblBasedOnRequested</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 2493907066" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel lblCustomer</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 203413171" size-unit="char" translate="yes" xml:space="preserve">
+          <source>* Delay based on confirmation [days]</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel lblDelayBasedConfirmation</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 733134585" size-unit="char" translate="yes" xml:space="preserve">
+          <source>* Delay based on request date [days]</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel lblDelayBasedRequest</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 3279499725" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel LblDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 4180292353" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel LblItem</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 3921025914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel LblItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 2812641463" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel LblOrderNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 2231422719" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OTD ratio</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel LblOTD</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 2886327152" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel LblShipmentNum</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 3581491912" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of delayed shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel LblShipmentsDelay</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - ReportLabel 2945866207" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of on time shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - ReportLabel LblShipmentsOnTime</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - Control 3309971885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - Control endDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - Control 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - Control Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - Control 3818733960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sarting date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - Control startDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - Control 1317800117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Based on confirmation date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - Control isConformation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - Control 3562951310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Based on requested date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - Control isRequested - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1320115617 - Control 2138571972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show items details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI On Time Delivery - Control itemsVisible - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 1899496202" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirmed date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblConfimDate</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 4180292353" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblItem</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 3215689246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblOpenQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 4291097250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblOrderNumberNAV</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 643245275" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblPage</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 60624386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblPostingDate</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 2484858426" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 3826146452" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblReguestedDate</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 1883811193" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAP PO number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblSAPPO</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 340283688" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAP SO number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblSAPSO</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - Control 2933726152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - Control RequestPageItemNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1851005282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to Contact E-Mail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType BillToContactEmailLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2423794985" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to Contact Mobile Phone No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType BillToContactMobilePhoneNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 24137681" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to Contact Phone No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType BillToContactPhoneNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1908025102" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Thank you for your business. Your order confirmation is attached to this message.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType BodyLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2771379227" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sincerely</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType ClosingLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3280613231" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType CompanyInfoBankAccNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3338143750" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType CompanyInfoBankNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1810908995" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Giro No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType CompanyInfoGiroNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1970452706" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType CompanyInfoPhoneNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3701423681" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType CopyLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3642540901" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer reference no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType CustRefNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1198791402" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType EMailLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3642584667" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exchange rate: %1/%2</source>
+          <note from="Developer" annotates="general" priority="2">%1 and %2 are both amounts.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType ExchangeRateTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 514421613" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hello</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType GreetingLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1243851074" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Home Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType HomePageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3479778493" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Discount Base Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType InvDiscBaseAmtLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3079811618" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType InvDiscountAmtLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 259914550" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType InvNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1448166496" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Discount on VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType LineAmtAfterInvDiscLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2284888724" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Local Currency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType LocalCurrencyLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2491107794" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify one or more filters to avoid accidently printing all documents.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType NoFilterSetErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 36769898" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType PaymentMethodDescLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2906320672" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType PaymentTermsDescLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3007589352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If we receive the payment before %1, you are eligible for a %2% payment discount.</source>
+          <note from="Developer" annotates="general" priority="2">%1 Discount Due Date %2 = value of Payment Discount % </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType PmtDiscTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3763377721" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType PostedShipmentDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2449874975" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Confirmation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType SalesConfirmationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2105550444" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType SalesInvLineDiscLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1075159697" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales person</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType SalespersonLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2518404021" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact E-Mail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType SellToContactEmailLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 689955230" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Mobile Phone No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType SellToContactMobilePhoneNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1096796838" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Phone No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType SellToContactPhoneNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2531235046" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType ShipmentLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2039684796" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType ShiptoAddrLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2175793069" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType ShptMethodDescLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3014721408" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subtotal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType SubtotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2410138484" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType TotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 803899421" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType VATAmountLCYLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3751533915" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType VATAmtLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3978645464" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount Specification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType VATAmtSpecificationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 3259128960" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Base</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType VATBaseLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 282000566" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Base (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType VATBaseLCYLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 2760006609" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Clause</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType VATClausesLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1071970054" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Identifier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType VATIdentifierLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - NamedType 1532992371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - NamedType VATPercentageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - ReportDataItem 907109761 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - ReportDataItem Header - Property RequestFilterHeading</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - Control 3255118903 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the document is archived after you print it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - Control ArchiveDocument - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - Control 3255118903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - Control ArchiveDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - Control 1885540899 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want the report to include information about components that were used in linked assembly orders that supplied the item(s) being sold. (Only possible for RDLC report layout.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - Control DisplayAsmInformation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - Control 1885540899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Assembly Components</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - Control DisplayAsmInformation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - Control 816368762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that interactions with the contact are logged.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - Control LogInteraction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3476226338 - Control 816368762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Interaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Order Confirmation - Control LogInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Physical Inventory List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 1920391707" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch name :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblBatchName</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 732731953" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblBin</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 813513594" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity (Calculated)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblCalculatedQty</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 938633600" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Counted qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblCountedQty</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 731981210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblDate</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 1928460464" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblDocumentNo</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 896182012" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory by :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblInvBy</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 980431393" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory control by :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel lblInvControlby</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 2380809170" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblItemDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 4238824872" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblItemNumber</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 54446408" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal name :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblJournalName</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 1131656553" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblLocation</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 643245275" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblPage</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 2764161152" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblReportTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 1748721976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - Control 3822164523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - Control InvLocationCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - Control 2824413586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show LOT details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - Control ShowLotDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI On Time Delivery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - ReportLabel 3433491739" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business year : </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - ReportLabel lblBY</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - ReportLabel 3138211653" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delayed qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - ReportLabel LblDelayQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - ReportLabel 2353866782" size-unit="char" translate="yes" xml:space="preserve">
+          <source>On time qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - ReportLabel lblOnTimeQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - ReportLabel 3900961272" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OTD ratio</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - ReportLabel LblOTDRatio</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - ReportLabel 831794901" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Performed AVG LT (Coil)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - ReportLabel lblPerformedAVGLTCoil</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - ReportLabel 1532690916" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Performed AVG LT (Cut)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - ReportLabel lblPerformedAVGLTCut</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - ReportLabel 2943056899" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Performed AVG LT (Finish)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - ReportLabel lblPerformedAVGLTFinish</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - ReportLabel 1260880745" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Performed AVG LT (Spec mat.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - ReportLabel lblPerformedAVGLTSpec</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - ReportLabel 258820181" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target LT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - ReportLabel LblTargetLT</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - ReportLabel 3896265900" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TTL ordered qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - ReportLabel LblTTLOrderdQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - RequestPage 2516438534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchasing on time delivery report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - RequestPage RequestOptionsPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938098076 - Control 2124107507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter business year</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI PO On Time Delivery - Control businessYear - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4106462462 - ReportLabel 733405153" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Posted Delivery Note - ReportLabel LblCustItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 4150973797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Warehouse Posted Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Posted Whse Receipt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4150973797 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Posted Whse Receipt - NamedType CurrReportPageNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4150973797 - NamedType 1989756216" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse - Posted Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Posted Whse Receipt - NamedType WarehousePostedReceiptCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4150973797 - RequestPage 2516438534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Posted Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Posted Whse Receipt - RequestPage RequestOptionsPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2809648283 - Control 1703530253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Basic filter data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Prod. Oder Statistic (Cap) - Control Select filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2065189833 - Control 1703530253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Basic filter data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Prod. Oder Statistic (RAW) - Control Select filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Production Order 0F</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 2975731450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType CurrReportPageNoCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 4116219673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Components and Routing Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType PrdOdrCmptsandRtngLinsCptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 68551913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType ProdOdrLineStrtngDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 1147391871" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType ProdOrderLineDueDateCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 2651382460" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType ProdOrderLineEndgDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 613275428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType ProductionOrderDescCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 731981210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblDate</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 2576445261" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblGoodGty</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1583424200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblMachNo</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 458411319" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblName</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 4222545780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblOpTime</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 2231926475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. order qty.:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblProdOrderQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1299305291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw mat. BOM qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblRMBOMQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 3507634024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material desctription</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblRMDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1440469195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material item no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblRMItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1394597352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LOT number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblRMLotNum</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 2959676199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblRMRemainingQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 2930009328" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblScrapCode</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 3660803679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblScrapQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1033886422" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shift</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblShift</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 3463744921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblStopCode</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 853168881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblStopTime</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1748721976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Production Order 0L</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 2975731450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType CurrReportPageNoCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 4116219673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Components and Routing Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType PrdOdrCmptsandRtngLinsCptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 68551913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType ProdOdrLineStrtngDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 1147391871" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType ProdOrderLineDueDateCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 2651382460" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType ProdOrderLineEndgDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 613275428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType ProductionOrderDescCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 731981210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblDate</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 2576445261" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblGoodGty</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1583424200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblMachNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 458411319" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblName</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 4222545780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblOpTime</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 2231926475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. order qty.:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblProdOrderQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1299305291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw mat. BOM qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblRMBOMQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 3507634024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material desctription</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblRMDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1440469195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material item no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblRMItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1394597352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LOT number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblRMLotNum</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 2959676199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblRMRemainingQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 2930009328" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblScrapCode</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 3660803679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblScrapQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1033886422" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shift</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblShift</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 3463744921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblStopCode</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 853168881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblStopTime</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1748721976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Production Order 0P</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 2975731450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType CurrReportPageNoCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 4116219673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Components and Routing Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType PrdOdrCmptsandRtngLinsCptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 68551913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType ProdOdrLineStrtngDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 1147391871" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType ProdOrderLineDueDateCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 2651382460" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType ProdOrderLineEndgDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 613275428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType ProductionOrderDescCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 731981210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblDate</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 2576445261" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblGoodGty</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1583424200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblMachNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 458411319" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblName</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 4222545780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblOpTime</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 2231926475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. order qty.:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblProdOrderQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1299305291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw mat. BOM qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblRMBOMQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 3507634024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material desctription</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblRMDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1440469195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material item no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblRMItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1394597352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LOT number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblRMLotNum</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 2959676199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblRMRemainingQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 2930009328" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblScrapCode</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 3660803679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblScrapQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1033886422" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shift</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblShift</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 3463744921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblStopCode</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 853168881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblStopTime</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1748721976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Production Order Finished</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 2975731450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType CurrReportPageNoCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 4116219673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Components and Routing Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType PrdOdrCmptsandRtngLinsCptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 68551913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType ProdOdrLineStrtngDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 1147391871" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType ProdOrderLineDueDateCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 2651382460" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType ProdOrderLineEndgDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 613275428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType ProductionOrderDescCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 2231926475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. order qty.:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblProdOrderQty</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 1299305291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw mat. BOM qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblRMBOMQty</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 3507634024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material desctription</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblRMDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 1440469195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material item no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblRMItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 1394597352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LOT number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblRMLotNum</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 2959676199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblRMRemainingQty</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 1748721976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Production Order Mobile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - NamedType 2975731450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - NamedType CurrReportPageNoCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - NamedType 4116219673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Components and Routing Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - NamedType PrdOdrCmptsandRtngLinsCptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - NamedType 68551913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - NamedType ProdOdrLineStrtngDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - NamedType 1147391871" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - NamedType ProdOrderLineDueDateCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - NamedType 2651382460" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - NamedType ProdOrderLineEndgDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - NamedType 613275428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - NamedType ProductionOrderDescCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 3572854466" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblOperationDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 454378232" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation num.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblOperationNumber</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 971103058" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation time (TTL)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblOperationTimeTTL</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 2862971072" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation time (Unit)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblOperationTimeUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 2231926475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. order qty.:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblProdOrderQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 1299305291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw mat. BOM qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblRMBOMQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 3507634024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material desctription</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblRMDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 1440469195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material item no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblRMItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 1394597352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LOT number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblRMLotNum</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 2959676199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblRMRemainingQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 2216187941" size-unit="char" translate="yes" xml:space="preserve">
+          <source>START WORK</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblStartWork</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 2441250981" size-unit="char" translate="yes" xml:space="preserve">
+          <source>STOP WORK</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblStopWork</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 37012126" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel lblTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 3694131926 - ReportLabel 1748721976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Mobile - ReportLabel LblUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gyártási rendelés statisztika</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 2535347888" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Actual consumption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblActualConsuption</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1603533662" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RM Item number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblConsumptedItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 3120669530" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblEntryType</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 35883551" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estimated consumption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblEstimatedConsumption</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 2371262987" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Real consumption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblItemLegdgerEntry</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 519950998" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblLocationCode</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 2484858426" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1921890083" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM unit quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblQtyPer</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 596703322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculated consumption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblRequiredConsumption</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1273515772" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run time booking warning!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblRunTimeCheck</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 3350810354" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblStatus</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1119041022" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material consumption statistic of workorder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1303057907" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblUnitCode</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 3061982064" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWODescription</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 2826349096" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finished Qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWOFinishedQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 92900392" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Produce item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWOItemNumber</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1076419811" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select work order number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWONumber</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 137996474" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWOQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 189906238" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rem. qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWORemainingQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 3778330098" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWorkOrderNumber</note>
+        </trans-unit>
+        <trans-unit id="Report 210378433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Reservation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Reservation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Shipment Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2898020632" size-unit="char" translate="yes" xml:space="preserve">
+          <source>0L Inv.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel Lbl0LInventory</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 4136816657" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Box</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblBox</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2192122128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblCustName</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2637889842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery note no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblDeliveryNote</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2265628260" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FG Inv.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblInventory</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 3921025914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2812641463" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblOrderNo</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2484858426" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblQty</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 1790176521" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. to ship</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblQtyToShip</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 1119041022" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2479547819" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblUMC</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 796677246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblWeight</note>
+        </trans-unit>
+        <trans-unit id="Report 1609207549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Travel ticket</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Travel ticket - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer order SEI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 731981210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblDate</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 1205869377" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivered quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblDeliveredItemQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 751014435" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblItemDescription</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 4238824872" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblItemNumber</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 251932189" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblItemQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 6046803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblItemUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 643245275" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblPage</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 199249914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reception warehouse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblReceptionWhse</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 2723951245" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sign of recipient</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblSignOfRecipient</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 3002431453" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sign of handover</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblSingnOfHandover</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 1915818718" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LbLTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 1598801278" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin code of transf. loc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblTransferFromBin</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 4040343156" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfering warehouse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblTransferingWhse</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 534400057" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin code of rec. loc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblTransferToBin</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 788455463" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer whse. code : </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblTransferWhseCode</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1785289257 - Action 3839994539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 40725609">
+          <source>Consumption summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SEIFinishedWOPageExt - Action Consumption summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2086396276 - Action 3839994539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3698582500">
+          <source>Consumption summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SEIReleasedWOPageExt - Action Consumption summary - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

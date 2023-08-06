@@ -1,0 +1,48 @@
+{
+  "id": "394112c2-7264-4b82-886b-b42071cb3852",
+  "name": "SEI Reports",
+  "publisher": "Borics Krisztián",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [{
+    "id": "4c259f69-0f85-4321-8e90-51268a354040",
+    "name": "Hungarian Localization",
+    "publisher": "HRP Europe Kft.",
+    "version": "20.0.0.0"
+  },
+  {
+    "id": "a305f0cf-05db-4f02-a88d-022a72b2f1fd",
+    "name": "seicb",
+    "publisher": "FITS Magyarország Kft.",
+    "version": "1.0.0.0"
+  },
+  {
+    "id": "a4be322d-74f1-4aea-bd2e-f49816138e86",
+    "name": "SEI 4m-management",
+    "publisher": "Borics Krisztián",
+    "version": "1.0.0.1"
+  }],
+  "screenshots": [],
+  "features": ["TranslationFile"],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.0"
+  
+}

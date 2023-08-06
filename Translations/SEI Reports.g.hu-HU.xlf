@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="hu-HU" original="SEI Reports">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 1294379758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Capacity Ledger Entry</source>
+          <target state="translated">SEI Kapacitástételek</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Capacity Ledger Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1187123261 - ReportLabel 733405153" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer item No.</source>
+          <target state="translated">Vevői item szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Delivery Note - ReportLabel LblCustItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 1899496202" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirmed date</source>
+          <target state="translated">Visszaigazolás</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblConfimDate</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 4180292353" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <target state="translated">Azonosító</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblItem</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 3215689246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open quantity</source>
+          <target state="translated">Nyitott menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblOpenQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 4291097250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order number</source>
+          <target state="translated">Rendelés szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblOrderNumberNAV</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 643245275" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page :</source>
+          <target state="translated">Oldal :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblPage</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 60624386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting date</source>
+          <target state="translated">Könyvelés dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblPostingDate</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 2484858426" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target state="translated">Mennyiség</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 3826146452" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested date</source>
+          <target state="translated">Kért dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblReguestedDate</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 1883811193" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAP PO number</source>
+          <target state="translated">SAP PO szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblSAPPO</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - ReportLabel 340283688" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAP SO number</source>
+          <target state="translated">SAP SO szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - ReportLabel LblSAPSO</note>
+        </trans-unit>
+        <trans-unit id="Report 3483991498 - Control 2933726152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item number</source>
+          <target state="translated">Azonosító</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Open orders - Control RequestPageItemNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Physical Inventory List</source>
+          <target state="translated">SEI Leltár Lista</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 1920391707" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch name :</source>
+          <target state="translated">Naplósablon név :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblBatchName</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 732731953" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin code</source>
+          <target state="translated">Tárhely</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblBin</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 813513594" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity (Calculated)</source>
+          <target state="translated">Számított mennyiség</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblCalculatedQty</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 938633600" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Counted qty</source>
+          <target state="translated">Számolt mennyiség</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblCountedQty</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 731981210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblDate</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 1928460464" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document number</source>
+          <target state="translated">Dokumentum szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblDocumentNo</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 896182012" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory by :</source>
+          <target state="translated">Leltározók :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblInvBy</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 980431393" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory control by :</source>
+          <target state="translated">Leltár ellenőr :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel lblInvControlby</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 2380809170" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Megnevezés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblItemDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 4238824872" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item number</source>
+          <target state="translated">Azonosító</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblItemNumber</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 54446408" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal name :</source>
+          <target state="translated">Naplólap :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblJournalName</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 1131656553" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target state="translated">Raktárkód</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblLocation</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 643245275" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page :</source>
+          <target state="translated">Oldal :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblPage</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 2764161152" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory list</source>
+          <target state="translated">Leltár lista</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblReportTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - ReportLabel 1748721976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <target state="translated">Egység</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - ReportLabel LblUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - Control 3822164523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select location</source>
+          <target state="translated">Adja meg a helyet</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - Control InvLocationCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4056366646 - Control 2824413586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show LOT details</source>
+          <target state="translated">LOT adatok megjelenítése</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Physical Inventory List - Control ShowLotDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4150973797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Warehouse Posted Receipt</source>
+          <target state="translated">SEI Könyvelt bevétjegy</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Posted Whse Receipt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4150973797 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Oldal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Posted Whse Receipt - NamedType CurrReportPageNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4150973797 - NamedType 1989756216" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse - Posted Receipt</source>
+          <target state="translated">Könyvelt bevétjegy</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Posted Whse Receipt - NamedType WarehousePostedReceiptCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4150973797 - RequestPage 2516438534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Posted Receipt</source>
+          <target state="translated">Könyvelt bevétjegy</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Posted Whse Receipt - RequestPage RequestOptionsPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Production Order 0F</source>
+          <target state="translated">SEI Gyártási rendelés 0F</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 2975731450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Oldal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType CurrReportPageNoCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 4116219673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Components and Routing Lines</source>
+          <target state="translated">Gyártási rendelés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType PrdOdrCmptsandRtngLinsCptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 68551913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target state="translated">Kezdő dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType ProdOdrLineStrtngDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 1147391871" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target state="translated">Határidő</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType ProdOrderLineDueDateCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 2651382460" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target state="translated">Záró dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType ProdOrderLineEndgDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - NamedType 613275428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Megnevezés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - NamedType ProductionOrderDescCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 731981210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblDate</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 2576445261" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good qty</source>
+          <target state="translated">Jó menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblGoodGty</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1583424200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine no.</source>
+          <target state="translated">Gép szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblMachNo</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 458411319" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Név</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblName</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 4222545780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation time</source>
+          <target state="translated">Műveleti idő</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblOpTime</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 2231926475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. order qty.:</source>
+          <target state="translated">Mennyiség :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblProdOrderQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1299305291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw mat. BOM qty.</source>
+          <target state="translated">Alapa. BOM menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblRMBOMQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 3507634024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material desctription</source>
+          <target state="translated">Alapanyag megnevezés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblRMDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1440469195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material item no.</source>
+          <target state="translated">Alapanyag azonosító</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblRMItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1394597352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LOT number</source>
+          <target state="translated">LOT szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblRMLotNum</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 2959676199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining qty.</source>
+          <target state="translated">Hátralévő menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblRMRemainingQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 2930009328" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap code</source>
+          <target state="translated">Selejt kód</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblScrapCode</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 3660803679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap Qty</source>
+          <target state="translated">Selejt me.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblScrapQty</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1033886422" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shift</source>
+          <target state="translated">Műszak</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblShift</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 3463744921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop code</source>
+          <target state="translated">Leállás kód</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblStopCode</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 853168881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop time</source>
+          <target state="translated">Állásidő</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblStopTime</note>
+        </trans-unit>
+        <trans-unit id="Report 3275589144 - ReportLabel 1748721976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <target state="translated">Egység</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0F - ReportLabel LblUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Production Order 0L</source>
+          <target state="translated">SEI Gyártási rendelés 0L</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 2975731450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Oldal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType CurrReportPageNoCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 4116219673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Components and Routing Lines</source>
+          <target state="translated">Gyártási rendelés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType PrdOdrCmptsandRtngLinsCptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 68551913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target state="translated">Kezdő dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType ProdOdrLineStrtngDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 1147391871" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target state="translated">Határidő</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType ProdOrderLineDueDateCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 2651382460" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target state="translated">Záró dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType ProdOrderLineEndgDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - NamedType 613275428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Megnevezés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - NamedType ProductionOrderDescCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 731981210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblDate</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 2576445261" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good qty</source>
+          <target state="translated">Jó menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblGoodGty</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1583424200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine no.</source>
+          <target state="translated">Gép szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblMachNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 458411319" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Név</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblName</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 4222545780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation time</source>
+          <target state="translated">Műveleti idő</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblOpTime</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 2231926475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. order qty.:</source>
+          <target state="translated">Mennyiség :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblProdOrderQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1299305291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw mat. BOM qty.</source>
+          <target state="translated">Alapa. BOM menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblRMBOMQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 3507634024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material desctription</source>
+          <target state="translated">Alapanyag megnevezés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblRMDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1440469195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material item no.</source>
+          <target state="translated">Alapanyag azonosító</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblRMItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1394597352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LOT number</source>
+          <target state="translated">LOT szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblRMLotNum</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 2959676199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining qty.</source>
+          <target state="translated">Hátralévő menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblRMRemainingQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 2930009328" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap code</source>
+          <target state="translated">Selejt kód</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblScrapCode</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 3660803679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap Qty</source>
+          <target state="translated">Selejt me.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblScrapQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1033886422" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shift</source>
+          <target state="translated">Műszak</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblShift</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 3463744921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop code</source>
+          <target state="translated">Leállás kód</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblStopCode</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 853168881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop time</source>
+          <target state="translated">Állásidő</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblStopTime</note>
+        </trans-unit>
+        <trans-unit id="Report 1062620722 - ReportLabel 1748721976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <target state="translated">Egység</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0L - ReportLabel LblUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Production Order 0P</source>
+          <target state="translated">SEI Gyártási rendelés 0P</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 2975731450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Oldal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType CurrReportPageNoCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 4116219673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Components and Routing Lines</source>
+          <target state="translated">Gyártási rendelés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType PrdOdrCmptsandRtngLinsCptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 68551913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target state="translated">Kezdő dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType ProdOdrLineStrtngDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 1147391871" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target state="translated">Határidő</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType ProdOrderLineDueDateCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 2651382460" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target state="translated">Záró dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType ProdOrderLineEndgDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - NamedType 613275428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Megnevezés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - NamedType ProductionOrderDescCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 731981210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblDate</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 2576445261" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good qty</source>
+          <target state="translated">Jó menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblGoodGty</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1583424200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Machine no.</source>
+          <target state="translated">Gép szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblMachNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 458411319" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Név</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblName</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 4222545780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation time</source>
+          <target state="translated">Műveleti idő</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblOpTime</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 2231926475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. order qty.:</source>
+          <target state="translated">Mennyiség :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblProdOrderQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1299305291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw mat. BOM qty.</source>
+          <target state="translated">Alapa. BOM menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblRMBOMQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 3507634024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material desctription</source>
+          <target state="translated">Alapanyag megnevezés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblRMDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1440469195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material item no.</source>
+          <target state="translated">Alapanyag azonosító</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblRMItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1394597352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LOT number</source>
+          <target state="translated">LOT szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblRMLotNum</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 2959676199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining qty.</source>
+          <target state="translated">Hátralévő menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblRMRemainingQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 2930009328" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap code</source>
+          <target state="translated">Selejt kód</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblScrapCode</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 3660803679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap Qty</source>
+          <target state="translated">Selejt me.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblScrapQty</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1033886422" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shift</source>
+          <target state="translated">Műszak</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblShift</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 3463744921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop code</source>
+          <target state="translated">Leállás kód</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblStopCode</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 853168881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop time</source>
+          <target state="translated">Állásidő</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblStopTime</note>
+        </trans-unit>
+        <trans-unit id="Report 1193590270 - ReportLabel 1748721976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <target state="translated">Egység</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order 0P - ReportLabel LblUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Production Order Finished</source>
+          <target state="translated">SEI Gyártási rendelés 07</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 2975731450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Oldal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType CurrReportPageNoCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 4116219673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Components and Routing Lines</source>
+          <target state="translated">Gyártási rendelés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType PrdOdrCmptsandRtngLinsCptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 68551913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target state="translated">Kezdő dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType ProdOdrLineStrtngDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 1147391871" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target state="translated">Határidő</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType ProdOrderLineDueDateCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 2651382460" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target state="translated">Záró dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType ProdOrderLineEndgDteCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - NamedType 613275428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Megnevezés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - NamedType ProductionOrderDescCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 2231926475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. order qty.:</source>
+          <target state="translated">Mennyiség :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblProdOrderQty</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 1299305291" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw mat. BOM qty.</source>
+          <target state="translated">Alapa. BOM menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblRMBOMQty</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 3507634024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material desctription</source>
+          <target state="translated">Alapanyag megnevezés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblRMDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 1440469195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material item no.</source>
+          <target state="translated">Alapanyag azonosító</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblRMItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 1394597352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LOT number</source>
+          <target state="translated">LOT szám</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblRMLotNum</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 2959676199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining qty.</source>
+          <target state="translated">Hátralévő menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblRMRemainingQty</note>
+        </trans-unit>
+        <trans-unit id="Report 896761868 - ReportLabel 1748721976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <target state="translated">Egység</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production Order Finished - ReportLabel LblUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gyártási rendelés statisztika</source>
+          <target state="translated">Gyártási rendelés statisztika</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 2535347888" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Actual consumption</source>
+          <target state="translated">Aktuális felhaszn.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblActualConsuption</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1603533662" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RM Item number</source>
+          <target state="translated">Alapanyag item</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblConsumptedItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 3120669530" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry type</source>
+          <target state="translated">Tételtipus</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblEntryType</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 35883551" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estimated consumption</source>
+          <target state="translated">Számított felhasználás</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblEstimatedConsumption</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 2371262987" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Real consumption</source>
+          <target state="translated">Aktuális felhasználás</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblItemLegdgerEntry</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 519950998" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target state="translated">Raktárkód</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblLocationCode</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 2484858426" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target state="translated">Mennyiség</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1921890083" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM unit quantity</source>
+          <target state="translated">BOM egys. menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblQtyPer</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 596703322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculated consumption</source>
+          <target state="translated">Számított felhaszn.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblRequiredConsumption</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1119041022" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw material consumption statistic of workorder</source>
+          <target state="translated">Alapanyagfelhasználási statisztika</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1303057907" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of measure</source>
+          <target state="translated">Menny. egys.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblUnitCode</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 3061982064" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Megnevezés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWODescription</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 2826349096" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finished Qty.</source>
+          <target state="translated">Elkészült menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWOFinishedQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 92900392" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Produce item</source>
+          <target state="translated">Gyártandó item</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWOItemNumber</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1076419811" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select work order number.</source>
+          <target state="translated">Adja meg a WO számot</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWONumber</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 137996474" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target state="translated">Mennyiség</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWOQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 189906238" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rem. qty.</source>
+          <target state="translated">Hátralévő menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWORemainingQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 3778330098" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work order</source>
+          <target state="translated">Gyártási rendelés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblWorkOrderNumber</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Shipment Status</source>
+          <target state="translated">SEI Kiszállítás állapota</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2898020632" size-unit="char" translate="yes" xml:space="preserve">
+          <source>0L Inv.</source>
+          <target state="translated">0L Lelt.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel Lbl0LInventory</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 4136816657" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Box</source>
+          <target state="translated">Doboz</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblBox</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2192122128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer name</source>
+          <target state="translated">Vevő neve</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblCustName</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2637889842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery note no.</source>
+          <target state="translated">Szállítólevél sz.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblDeliveryNote</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2265628260" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FG Inv.</source>
+          <target state="translated">FG Lelt.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblInventory</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 3921025914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item no.</source>
+          <target state="translated">Azonosító</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblItemNo</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2812641463" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order no.</source>
+          <target state="translated">Rend. sz.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblOrderNo</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2484858426" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty.</source>
+          <target state="translated">Menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblQty</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 1790176521" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. to ship</source>
+          <target state="translated">Szállítandó</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblQtyToShip</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 1119041022" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment status</source>
+          <target state="translated">Kiszállítás állapota</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 2479547819" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <target state="translated">Egység</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblUMC</note>
+        </trans-unit>
+        <trans-unit id="Report 4026716613 - ReportLabel 796677246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <target state="translated">Súly</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Shipment status - ReportLabel LblWeight</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer order SEI</source>
+          <target state="translated">Átadási rendelés SEI</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 731981210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Dátum</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblDate</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 1205869377" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivered quantity</source>
+          <target state="translated">Szállított menny.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblDeliveredItemQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 751014435" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Megnevezés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblItemDescription</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 4238824872" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item number</source>
+          <target state="translated">Azonosító :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblItemNumber</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 251932189" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target state="translated">Mennyiség</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblItemQty</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 6046803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of measure</source>
+          <target state="translated">Menny. egys.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblItemUnit</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 643245275" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page :</source>
+          <target state="translated">Oldal :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblPage</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 199249914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reception warehouse</source>
+          <target state="translated">Átvevő raktár</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblReceptionWhse</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 2723951245" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sign of recipient</source>
+          <target state="translated">Átvevő aláírás</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblSignOfRecipient</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 3002431453" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sign of handover</source>
+          <target state="translated">Átadó aláítás</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblSingnOfHandover</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 1915818718" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer order</source>
+          <target state="translated">Átadási rendelés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LbLTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 1598801278" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin code of transf. loc.</source>
+          <target state="translated">Átadó raktárhely</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblTransferFromBin</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 4040343156" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfering warehouse</source>
+          <target state="translated">Átadó raktár</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblTransferingWhse</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 534400057" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin code of rec. loc.</source>
+          <target state="translated">Átvevő rakárhely</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblTransferToBin</note>
+        </trans-unit>
+        <trans-unit id="Report 2882765718 - ReportLabel 788455463" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer whse. code : </source>
+          <target state="translated">Tranzitraktár kód :</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Transfer order SEI - ReportLabel LblTransferWhseCode</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1785289257 - Action 3839994539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 40725609">
+          <source>Consumption summary</source>
+          <target state="translated">Felhasználás összesítés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SEIFinishedWOPageExt - Action Consumption summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2086396276 - Action 3839994539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3698582500">
+          <source>Consumption summary</source>
+          <target state="translated">Felhasználás összesítés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SEIReleasedWOPageExt - Action Consumption summary - Property Caption</note>
+        </trans-unit>
+          <trans-unit id="Report 2368236080 - ReportLabel 3350810354" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated">Állapot</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblStatus</note>
+        </trans-unit>
+        <trans-unit id="Page 915927883 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Sales Invoice Line All</source>
+          <target state="translated">Könyvelt számlák segédűrlap</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Sales Invoice Line All - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2352845997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Credit Note All</source>
+          <target state="translated">Könyvelt jóváírások segédűrlap</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Credit Note All - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2586912809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Released WO Lines</source>
+          <target state="translated">Eng. gyárt. rend. sorok</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Released WO Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2368236080 - ReportLabel 1273515772" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run time booking warning!</source>
+          <target state="translated">Üzemidő könyvelés figyelmeztetések!</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SEI Production order statistic - ReportLabel LblRunTimeCheck</note>
+        </trans-unit>
+                <trans-unit id="Page 1235001435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Whse. Receipt Lines</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Whse. Receipt Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1404755579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEI Item reference</source>
+          <target state="translated">Cikk kereszthivatkozások</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SEI Item reference - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

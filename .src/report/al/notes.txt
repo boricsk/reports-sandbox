@@ -1,0 +1,47 @@
+
+
+                            trigger OnPreDataItem()
+            begin
+                "Production Order".SetRange(Status, "Production Order".Status::Finished);
+                "Production Order".SetRange("Production Order"."Shortcut Dimension 2 Code", LocationCode);
+                "Production Order".SetRange("Production Order"."SEI Finished DateTime", StartingDate, EndingDate);
+            end;
+
+Delivery note
+                //     dataitem("Item Reference"; "Item Reference")
+                //     {
+                //         DataItemLink = "Item No." = field("No.");
+                //         column(ItemReferenceItem_No_; "Item No.") { }
+                //         column(ItemReferenceReference_No_; "Reference No.") { }
+
+                //         dataitem("Item Unit of Measure"; "Item Unit of Measure")
+                //         {
+                //             DataItemLink = "Item No." = field("Item No.");
+                //             column(ItemUnitMeasureItem_No_; "Item No.") { }
+                //             column(ItemUnitMeasureQty__per_Unit_of_Measure; "Qty. per Unit of Measure") { }
+                //             column(ItemUnitMeasureQty__Rounding_Precision; "Qty. Rounding Precision") { }
+                //             column(ItemUnitMeasureCode; Code) { }
+                //             column(ItemUnitMeasureSEI_Wrapping_Weight; "SEI Wrapping Weight") { }
+
+                //             trigger OnPreDataItem()
+                //             begin
+                //                 "Item Unit of Measure".SetRange("Item Unit of Measure"."Item No.", "Warehouse Shipment Line"."Item No.");
+                //             end;
+                //         }
+
+                //         trigger OnPreDataItem()
+                //         begin
+                //             "Item Reference".SetRange("Item Reference"."Item No.", "Item"."No.");
+                //         end;
+                //     }
+
+                                    dataitem(Item; Item)
+                    {
+                        DataItemLink = "No." = field("Warehouse Shipment Line"."Item No.");
+                        column(ItemsNo_; "No.") { }
+                        column(Tariff_No_; "Tariff No.") { }
+                        trigger OnPreDataItem()
+                        begin
+                            item.SetRange(item."No.", "Warehouse Shipment Line"."Item No.");
+                        end;
+                    }

@@ -1,0 +1,337 @@
+<?xml version="1.0"?>
+<Objects xmlns="urn:schemas-microsoft-com:dynamics:NAV:ApplicationObjects"><Report xmlns="urn:schemas-microsoft-com:dynamics:NAV:ApplicationObjects" ID="722" Name="Phys. Inventory List" Date="2013-03-25" Time="13:49:27.463Z" Modified="Yes" VersionList="NAVW15.00"><Properties><CaptionML>ENU=Phys. Inventory List;
+HUN=Leltár lista</CaptionML><Orientation>Landscape</Orientation></Properties><Triggers><OnPreReport><![CDATA[BEGIN
+  ItemJnlLineFilter := "Item Journal Line".GETFILTERS;
+  ItemJnlBatchFilter:= "Item Journal Batch".GETFILTERS;
+END;
+]]></OnPreReport></Triggers><DataItems><DataItem><Properties><DataItemTable>Table2000000026</DataItemTable><DataItemTableView>SORTING(Number)
+WHERE(Number=CONST(1))</DataItemTableView><DataItemVarName>PageLoop</DataItemVarName></Properties><Sections><Section><Properties><SectionType>Header</SectionType><PrintOnEveryPage>Yes</PrintOnEveryPage><SectionWidth>25800</SectionWidth><SectionHeight>2538</SectionHeight></Properties><Controls><Control><Properties><ID>64</ID><Controltype>TextBox</Controltype><XPos>0</XPos><YPos>423</YPos><Width>7500</Width><Height>423</Height><SourceExpr>COMPANYNAME</SourceExpr></Properties></Control><Control><Properties><ID>68</ID><Controltype>Label</Controltype><XPos>0</XPos><YPos>0</YPos><Width>7500</Width><Height>423</Height><FontSize>8</FontSize><FontBold>Yes</FontBold><CaptionML>ENU=Phys. Inventory List;
+HUN=Leltár lista</CaptionML></Properties></Control><Control><Properties><ID>72</ID><Controltype>TextBox</Controltype><XPos>22050</XPos><YPos>0</YPos><Width>3150</Width><Height>423</Height><HorzAlign>Right</HorzAlign><SourceExpr>FORMAT(TODAY,0,4)</SourceExpr></Properties></Control><Control><Properties><ID>73</ID><Controltype>TextBox</Controltype><XPos>22950</XPos><YPos>846</YPos><Width>2250</Width><Height>423</Height><HorzAlign>Right</HorzAlign><SourceExpr>USERID</SourceExpr></Properties></Control><Control><Properties><ID>74</ID><Controltype>Label</Controltype><XPos>24000</XPos><YPos>423</YPos><Width>750</Width><Height>423</Height><ParentControl>75</ParentControl></Properties></Control><Control><Properties><ID>75</ID><Controltype>TextBox</Controltype><XPos>24750</XPos><YPos>423</YPos><Width>450</Width><Height>423</Height><CaptionML>ENU=Page;
+HUN=Oldal</CaptionML><SourceExpr>CurrReport.PAGENO</SourceExpr></Properties></Control><Control><Properties><ID>1102909000</ID><Controltype>Label</Controltype><XPos>1350</XPos><YPos>1269</YPos><Width>1800</Width><Height>423</Height><CaptionML>HUN=Leltár ellenőr:</CaptionML></Properties></Control><Control><Properties><ID>1102909001</ID><Controltype>Label</Controltype><XPos>1350</XPos><YPos>1692</YPos><Width>2400</Width><Height>423</Height><CaptionML>HUN=Leltár felvevő(k):</CaptionML></Properties></Control></Controls></Section><Section><Properties><SectionType>Header</SectionType><PrintOnEveryPage>No</PrintOnEveryPage><SectionWidth>25800</SectionWidth><SectionHeight>846</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT((ItemJnlBatchFilter <> '') AND (CurrReport.PAGENO = 1));
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>1</ID><Controltype>TextBox</Controltype><XPos>0</XPos><YPos>0</YPos><Width>19800</Width><Height>423</Height><SourceExpr>"Item Journal Batch".TABLECAPTION + ': ' + ItemJnlBatchFilter</SourceExpr></Properties></Control></Controls></Section><Section><Properties><SectionType>Header</SectionType><PrintOnEveryPage>No</PrintOnEveryPage><SectionWidth>25800</SectionWidth><SectionHeight>846</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT((ItemJnlLineFilter <> '') AND (CurrReport.PAGENO = 1));
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>2</ID><Controltype>TextBox</Controltype><XPos>0</XPos><YPos>0</YPos><Width>19800</Width><Height>423</Height><SourceExpr>"Item Journal Line".TABLECAPTION + ': ' + ItemJnlLineFilter</SourceExpr></Properties></Control></Controls></Section><Section><Properties><SectionType>Header</SectionType><PrintOnEveryPage>Yes</PrintOnEveryPage><SectionWidth>25800</SectionWidth><SectionHeight>1269</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT(ShowQtyCalculated);
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>19</ID><Controltype>Label</Controltype><XPos>0</XPos><YPos>0</YPos><Width>1200</Width><Height>846</Height><ParentControl>3</ParentControl><HorzAlign>Left</HorzAlign><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>21</ID><Controltype>Label</Controltype><XPos>1500</XPos><YPos>0</YPos><Width>1500</Width><Height>846</Height><ParentControl>7</ParentControl><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>25</ID><Controltype>Label</Controltype><XPos>4200</XPos><YPos>0</YPos><Width>1500</Width><Height>846</Height><ParentControl>9</ParentControl><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>32</ID><Controltype>Label</Controltype><XPos>6900</XPos><YPos>0</YPos><Width>4500</Width><Height>846</Height><ParentControl>11</ParentControl><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>76</ID><Controltype>Label</Controltype><XPos>16950</XPos><YPos>0</YPos><Width>1500</Width><Height>846</Height><ParentControl>17</ParentControl><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>77</ID><Controltype>Label</Controltype><XPos>18750</XPos><YPos>0</YPos><Width>1650</Width><Height>846</Height><ParentControl>35</ParentControl><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>78</ID><Controltype>Label</Controltype><XPos>21000</XPos><YPos>0</YPos><Width>1800</Width><Height>846</Height><ParentControl>6</ParentControl><HorzAlign>Right</HorzAlign><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>79</ID><Controltype>Label</Controltype><XPos>22950</XPos><YPos>0</YPos><Width>1800</Width><Height>846</Height><HorzAlign>Right</HorzAlign><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine><CaptionML>ENU=Qty. (Phys. Inventory);
+HUN=Mennyiség (leltár)</CaptionML></Properties></Control></Controls></Section><Section><Properties><SectionType>Header</SectionType><PrintOnEveryPage>Yes</PrintOnEveryPage><SectionWidth>25800</SectionWidth><SectionHeight>1269</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT(NOT ShowQtyCalculated);
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>80</ID><Controltype>Label</Controltype><XPos>22950</XPos><YPos>0</YPos><Width>1800</Width><Height>846</Height><HorzAlign>Right</HorzAlign><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine><CaptionML>ENU=Qty. (Phys. Inventory);
+HUN=Mennyiség (leltár)</CaptionML></Properties></Control><Control><Properties><ID>81</ID><Controltype>Label</Controltype><XPos>18750</XPos><YPos>0</YPos><Width>1650</Width><Height>846</Height><ParentControl>35</ParentControl><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>82</ID><Controltype>Label</Controltype><XPos>16950</XPos><YPos>0</YPos><Width>1500</Width><Height>846</Height><ParentControl>17</ParentControl><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>85</ID><Controltype>Label</Controltype><XPos>6900</XPos><YPos>0</YPos><Width>4500</Width><Height>846</Height><ParentControl>11</ParentControl><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>86</ID><Controltype>Label</Controltype><XPos>4200</XPos><YPos>0</YPos><Width>1500</Width><Height>846</Height><ParentControl>9</ParentControl><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>87</ID><Controltype>Label</Controltype><XPos>1500</XPos><YPos>0</YPos><Width>1500</Width><Height>846</Height><ParentControl>7</ParentControl><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>88</ID><Controltype>Label</Controltype><XPos>0</XPos><YPos>0</YPos><Width>1200</Width><Height>846</Height><ParentControl>3</ParentControl><HorzAlign>Left</HorzAlign><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control></Controls></Section><Section><Properties><SectionType>Footer</SectionType><PrintOnEveryPage>Yes</PrintOnEveryPage><SectionWidth>25800</SectionWidth><SectionHeight>846</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT(ShowLotSN AND ShowNote);
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>4</ID><Controltype>TextBox</Controltype><XPos>0</XPos><YPos>423</YPos><Width>900</Width><Height>423</Height><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><SourceExpr>Text003</SourceExpr></Properties></Control><Control><Properties><ID>8</ID><Controltype>TextBox</Controltype><XPos>900</XPos><YPos>423</YPos><Width>19200</Width><Height>423</Height><VertAlign>Bottom</VertAlign><SourceExpr>Text002</SourceExpr></Properties></Control></Controls></Section></Sections></DataItem><DataItem><Properties><DataItemIndent>1</DataItemIndent><DataItemTable>Table233</DataItemTable><ReqFilterFields>Journal Template Name,Name</ReqFilterFields></Properties><Triggers><OnAfterGetRecord><![CDATA[BEGIN
+  IF ItemJournalTemplate.GET("Item Journal Batch"."Journal Template Name") THEN
+    IF ItemJournalTemplate.Type <> ItemJournalTemplate.Type::"Phys. Inventory" THEN
+      CurrReport.SKIP;
+END;
+]]></OnAfterGetRecord></Triggers><Sections/></DataItem><DataItem><Properties><DataItemIndent>2</DataItemIndent><DataItemTable>Table83</DataItemTable><ReqFilterFields>Shortcut Dimension 1 Code,Shortcut Dimension 2 Code,Location Code,Bin Code</ReqFilterFields><DataItemLink>Journal Template Name=FIELD(Journal Template Name),
+Journal Batch Name=FIELD(Name)</DataItemLink></Properties><Triggers><OnPreDataItem><![CDATA[BEGIN
+
+  {
+  IF ShowLotSN THEN BEGIN
+    ShowNote := FALSE;
+    ItemJnlLine.COPYFILTERS("Item Journal Line");
+    CreateSNLotEntries(ItemJnlLine);
+  END;
+  }
+END;
+]]></OnPreDataItem><OnAfterGetRecord><![CDATA[BEGIN
+  IF ShowLotSN THEN BEGIN
+    Note := '';
+    ShowSummary := FALSE;
+    IF "Bin Code" <> '' THEN
+      IF NOT WhseTrckg("Item No.") THEN BEGIN
+        Note := Text001;
+        ShowSummary := TRUE;
+      END;
+    CLEAR(ReservEntryBuffer);
+  END;
+
+  IF NOT item.GET("Item No.") THEN CLEAR(item);
+
+      IF "Bin Code" <> '' THEN BEGIN
+        IF WhseTrckg("Item No.") THEN
+          PickSNLotFromWhseEntry("Item No.",
+            "Variant Code","Location Code","Bin Code","Unit of Measure Code")
+        ELSE BEGIN
+          CreateSummary("Item Journal Line");
+          ShowNote := TRUE;
+        END;
+      END
+      ELSE BEGIN
+        IF DirectedPutAwayAndPick("Location Code") THEN
+          CreateSummary("Item Journal Line")
+        ELSE
+          PickSNLotFromILEntry("Item No.","Variant Code","Location Code");
+      END;
+END;
+]]></OnAfterGetRecord></Triggers><Sections><Section><Properties><SectionType>Body</SectionType><SectionWidth>25800</SectionWidth><SectionHeight>423</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT(ShowQtyCalculated);
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>3</ID><Controltype>TextBox</Controltype><XPos>0</XPos><YPos>0</YPos><Width>1200</Width><Height>423</Height><HorzAlign>Left</HorzAlign><SourceExpr>"Posting Date"</SourceExpr></Properties></Control><Control><Properties><ID>7</ID><Controltype>TextBox</Controltype><XPos>1500</XPos><YPos>0</YPos><Width>1500</Width><Height>423</Height><HorzAlign>Left</HorzAlign><SourceExpr>"Document No."</SourceExpr></Properties></Control><Control><Properties><ID>9</ID><Controltype>TextBox</Controltype><XPos>3750</XPos><YPos>0</YPos><Width>2250</Width><Height>423</Height><HorzAlign>Left</HorzAlign><SourceExpr>"Item No."</SourceExpr></Properties></Control><Control><Properties><ID>11</ID><Controltype>TextBox</Controltype><XPos>6300</XPos><YPos>0</YPos><Width>4200</Width><Height>423</Height><SourceExpr>Description</SourceExpr></Properties></Control><Control><Properties><ID>17</ID><Controltype>TextBox</Controltype><XPos>16950</XPos><YPos>0</YPos><Width>1500</Width><Height>423</Height><SourceExpr>"Location Code"</SourceExpr></Properties></Control><Control><Properties><ID>5</ID><Controltype>TextBox</Controltype><XPos>22950</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><PadChar>_</PadChar><SourceExpr>''</SourceExpr></Properties></Control><Control><Properties><ID>6</ID><Controltype>TextBox</Controltype><XPos>21000</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><SourceExpr>"Qty. (Calculated)"</SourceExpr></Properties></Control><Control><Properties><ID>35</ID><Controltype>TextBox</Controltype><XPos>18750</XPos><YPos>0</YPos><Width>1950</Width><Height>423</Height><SourceExpr>"Bin Code"</SourceExpr></Properties></Control><Control><Properties><ID>45</ID><Controltype>TextBox</Controltype><XPos>24900</XPos><YPos>0</YPos><Width>300</Width><Height>423</Height><FontBold>Yes</FontBold><SourceExpr>Note</SourceExpr></Properties></Control></Controls></Section><Section><Properties><SectionType>Body</SectionType><SectionWidth>25800</SectionWidth><SectionHeight>423</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT(NOT ShowQtyCalculated);
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>23</ID><Controltype>TextBox</Controltype><XPos>0</XPos><YPos>0</YPos><Width>1200</Width><Height>423</Height><HorzAlign>Left</HorzAlign><SourceExpr>"Posting Date"</SourceExpr></Properties></Control><Control><Properties><ID>24</ID><Controltype>TextBox</Controltype><XPos>22950</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><PadChar>_</PadChar><SourceExpr>''</SourceExpr></Properties></Control><Control><Properties><ID>26</ID><Controltype>TextBox</Controltype><XPos>16950</XPos><YPos>0</YPos><Width>1500</Width><Height>423</Height><SourceExpr>"Location Code"</SourceExpr></Properties></Control><Control><Properties><ID>30</ID><Controltype>TextBox</Controltype><XPos>3750</XPos><YPos>0</YPos><Width>2250</Width><Height>423</Height><HorzAlign>Left</HorzAlign><SourceExpr>"Item No."</SourceExpr></Properties></Control><Control><Properties><ID>31</ID><Controltype>TextBox</Controltype><XPos>1500</XPos><YPos>0</YPos><Width>1500</Width><Height>423</Height><HorzAlign>Left</HorzAlign><SourceExpr>"Document No."</SourceExpr></Properties></Control><Control><Properties><ID>37</ID><Controltype>TextBox</Controltype><XPos>18750</XPos><YPos>0</YPos><Width>1950</Width><Height>423</Height><SourceExpr>"Bin Code"</SourceExpr></Properties></Control><Control><Properties><ID>46</ID><Controltype>TextBox</Controltype><XPos>24900</XPos><YPos>0</YPos><Width>300</Width><Height>423</Height><FontBold>Yes</FontBold><SourceExpr>Note</SourceExpr></Properties></Control><Control><Properties><ID>1102909004</ID><Controltype>TextBox</Controltype><XPos>6300</XPos><YPos>0</YPos><Width>9300</Width><Height>423</Height><SourceExpr>item."Long Description"</SourceExpr></Properties></Control></Controls></Section></Sections></DataItem><DataItem><Properties><DataItemIndent>3</DataItemIndent><DataItemTable>Table2000000026</DataItemTable><DataItemTableView>SORTING(Number)</DataItemTableView><DataItemVarName>ItemTrackingSpecification</DataItemVarName></Properties><Triggers><OnPreDataItem><![CDATA[BEGIN
+  ReservEntryBuffer.SETCURRENTKEY("Source ID","Source Ref. No.","Source Type","Source Subtype","Source Batch Name");
+  ReservEntryBuffer.SETRANGE("Source ID","Item Journal Line"."Journal Template Name");
+  ReservEntryBuffer.SETRANGE("Source Ref. No.","Item Journal Line"."Line No.");
+  ReservEntryBuffer.SETRANGE("Source Type",DATABASE::"Item Journal Line");
+  ReservEntryBuffer.SETFILTER("Source Subtype",'=%1',ReservEntryBuffer."Source Subtype"::"0");
+  ReservEntryBuffer.SETRANGE("Source Batch Name","Item Journal Line"."Journal Batch Name");
+
+  //+HM 2013.03.25 bugfix
+  //Gyűjtésnél megadott szűréseket elfelejtették leszedni...
+  ReservEntryBuffer.SETRANGE("Reservation Status");
+  ReservEntryBuffer.SETRANGE("Variant Code");
+
+  ReservEntryBuffer.SETRANGE("Location Code");
+  ReservEntryBuffer.SETRANGE("Item Tracking");
+  ReservEntryBuffer.SETRANGE("Item No.");
+  ReservEntryBuffer.SETRANGE("Lot No.");
+  ReservEntryBuffer.SETRANGE("Serial No.");
+
+
+  //-HM 2013.03.25 bugfix
+
+  IF ReservEntryBuffer.ISEMPTY THEN
+    CurrReport.BREAK;
+  SETRANGE(Number,1,ReservEntryBuffer.COUNT);
+END;
+]]></OnPreDataItem><OnAfterGetRecord><![CDATA[BEGIN
+  IF Number = 1 THEN
+    ReservEntryBuffer.FINDSET
+  ELSE
+    ReservEntryBuffer.NEXT;
+END;
+]]></OnAfterGetRecord></Triggers><Sections><Section><Properties><SectionType>Header</SectionType><PrintOnEveryPage>Yes</PrintOnEveryPage><SectionWidth>25800</SectionWidth><SectionHeight>423</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT(ShowLotSN AND NOT ShowSummary AND ShowQtyCalculated);
+  CurrReport.SHOWOUTPUT(FALSE);
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>42</ID><Controltype>Label</Controltype><Name>Lot No.</Name><XPos>4650</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>43</ID><Controltype>Label</Controltype><Name>Serial No.</Name><XPos>6600</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>44</ID><Controltype>Label</Controltype><Name>Quantity (Base)</Name><XPos>8550</XPos><YPos>0</YPos><Width>2100</Width><Height>423</Height><HorzAlign>Right</HorzAlign><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control></Controls></Section><Section><Properties><SectionType>Header</SectionType><SectionWidth>25800</SectionWidth><SectionHeight>423</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT(ShowLotSN AND NOT ShowSummary AND NOT ShowQtyCalculated);
+  CurrReport.SHOWOUTPUT(FALSE);
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>66</ID><Controltype>Label</Controltype><Name>Lot No.</Name><XPos>4650</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>67</ID><Controltype>Label</Controltype><Name>Serial No.</Name><XPos>6600</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control></Controls></Section><Section><Properties><SectionType>Header</SectionType><PrintOnEveryPage>Yes</PrintOnEveryPage><SectionWidth>25800</SectionWidth><SectionHeight>846</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT(ShowLotSN AND ShowSummary AND ShowQtyCalculated);
+  CurrReport.SHOWOUTPUT(FALSE);
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>38</ID><Controltype>Label</Controltype><Name>Lot No.</Name><XPos>4650</XPos><YPos>423</YPos><Width>1800</Width><Height>423</Height><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>39</ID><Controltype>Label</Controltype><Name>Serial No.</Name><XPos>6600</XPos><YPos>423</YPos><Width>1800</Width><Height>423</Height><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>54</ID><Controltype>Label</Controltype><Name>Quantity (Base)</Name><XPos>8550</XPos><YPos>423</YPos><Width>2100</Width><Height>423</Height><HorzAlign>Right</HorzAlign><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>55</ID><Controltype>Label</Controltype><Name>Summary per Item *</Name><XPos>4650</XPos><YPos>0</YPos><Width>2850</Width><Height>423</Height><HorzAlign>General</HorzAlign><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><FontUnderline>No</FontUnderline><MultiLine>Yes</MultiLine></Properties></Control></Controls></Section><Section><Properties><SectionType>Header</SectionType><SectionWidth>25800</SectionWidth><SectionHeight>846</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT(ShowLotSN AND ShowSummary AND NOT ShowQtyCalculated);
+  CurrReport.SHOWOUTPUT(FALSE);
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>69</ID><Controltype>Label</Controltype><Name>Summary per Item *</Name><XPos>4650</XPos><YPos>0</YPos><Width>2850</Width><Height>423</Height><HorzAlign>General</HorzAlign><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><FontUnderline>No</FontUnderline><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>70</ID><Controltype>Label</Controltype><Name>Lot No.</Name><XPos>4650</XPos><YPos>423</YPos><Width>1800</Width><Height>423</Height><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control><Control><Properties><ID>71</ID><Controltype>Label</Controltype><Name>Serial No.</Name><XPos>6600</XPos><YPos>423</YPos><Width>1800</Width><Height>423</Height><VertAlign>Bottom</VertAlign><FontBold>Yes</FontBold><MultiLine>Yes</MultiLine></Properties></Control></Controls></Section><Section><Properties><SectionType>Body</SectionType><SectionWidth>25800</SectionWidth><SectionHeight>423</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  //+HM 2012.12.01
+  //CurrReport.SHOWOUTPUT(ShowLotSN AND ShowQtyCalculated)
+  CurrReport.SHOWOUTPUT(ShowLotSN AND ShowQtyCalculated AND (ReservEntryBuffer."Quantity (Base)" <> 0))
+  //-HM 2012.12.01
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>47</ID><Controltype>TextBox</Controltype><XPos>4650</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><ParentControl>42</ParentControl><SourceExpr>ReservEntryBuffer."Lot No."</SourceExpr></Properties></Control><Control><Properties><ID>48</ID><Controltype>TextBox</Controltype><XPos>6600</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><ParentControl>43</ParentControl><SourceExpr>ReservEntryBuffer."Serial No."</SourceExpr></Properties></Control><Control><Properties><ID>49</ID><Controltype>TextBox</Controltype><XPos>8550</XPos><YPos>0</YPos><Width>2100</Width><Height>423</Height><ParentControl>44</ParentControl><DecimalPlaces>0:4</DecimalPlaces><SourceExpr>ReservEntryBuffer."Quantity (Base)"</SourceExpr></Properties></Control><Control><Properties><ID>52</ID><Controltype>TextBox</Controltype><XPos>17850</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><PadChar>_</PadChar><SourceExpr>''</SourceExpr></Properties></Control></Controls></Section><Section><Properties><SectionType>Body</SectionType><SectionWidth>25800</SectionWidth><SectionHeight>423</SectionHeight></Properties><Triggers><OnPreSection><![CDATA[BEGIN
+  CurrReport.SHOWOUTPUT(ShowLotSN AND NOT ShowQtyCalculated)
+END;
+]]></OnPreSection></Triggers><Controls><Control><Properties><ID>50</ID><Controltype>TextBox</Controltype><XPos>4650</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><ParentControl>42</ParentControl><SourceExpr>ReservEntryBuffer."Lot No."</SourceExpr></Properties></Control><Control><Properties><ID>51</ID><Controltype>TextBox</Controltype><XPos>6600</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><ParentControl>43</ParentControl><SourceExpr>ReservEntryBuffer."Serial No."</SourceExpr></Properties></Control><Control><Properties><ID>53</ID><Controltype>TextBox</Controltype><XPos>17850</XPos><YPos>0</YPos><Width>1800</Width><Height>423</Height><PadChar>_</PadChar><SourceExpr>''</SourceExpr></Properties></Control></Controls></Section></Sections></DataItem></DataItems><RequestForm><Properties><Width>3850</Width><Height>990</Height><SaveValues>Yes</SaveValues></Properties><Triggers/><Controls><Control><Properties><ID>1</ID><Controltype>CheckBox</Controltype><XPos>3410</XPos><YPos>0</YPos><Width>440</Width><Height>440</Height><InPage>-1</InPage><ShowCaption>No</ShowCaption><CaptionML>ENU=Show Qty. (Calculated);
+HUN=Mennyiség (számított)</CaptionML><SourceExpr>ShowQtyCalculated</SourceExpr></Properties></Control><Control><Properties><ID>2</ID><Controltype>Label</Controltype><XPos>0</XPos><YPos>0</YPos><Width>3300</Width><Height>440</Height><ParentControl>1</ParentControl><InPage>-1</InPage></Properties></Control><Control><Properties><ID>3</ID><Controltype>Label</Controltype><XPos>0</XPos><YPos>550</YPos><Width>3300</Width><Height>440</Height><ParentControl>4</ParentControl><InPage>-1</InPage></Properties></Control><Control><Properties><ID>4</ID><Controltype>CheckBox</Controltype><XPos>3410</XPos><YPos>550</YPos><Width>440</Width><Height>440</Height><InPage>-1</InPage><ShowCaption>No</ShowCaption><CaptionML>ENU=Show Serial/Lot Number;
+HUN=Sorozatszám/adagszám megjelenítése</CaptionML><SourceExpr>ShowLotSN</SourceExpr></Properties></Control></Controls></RequestForm><RequestPage><Properties/><SourceObject/><Triggers/><Actions/><Controls/></RequestPage><Code><![CDATA[VAR
+  ItemJournalTemplate@1002 : Record 82;
+  ItemJnlLine@1015 : Record 83;
+  ItemTrackingCode@1009 : Record 6502;
+  ReservEntryBuffer@1012 : TEMPORARY Record 337;
+  ItemJnlLineFilter@1000 : Text[250];
+  ItemJnlBatchFilter@1003 : Text[250];
+  Note@1010 : Text[1];
+  ShowQtyCalculated@1001 : Boolean;
+  ShowLotSN@1004 : Boolean;
+  ShowNote@1016 : Boolean;
+  ShowSummary@1017 : Boolean;
+  Text001@1006 : TextConst 'ENU=*;HUN=*';
+  Text002@1013 : TextConst 'ENU=Your system is set up to use Bin Mandatory and not SN/Lot Warehouse Tracking. Therefore, you will not see serial/lot numbers by bin but merely as a summary per item.;HUN=A rendszer a Kötelező raktárhely üzemmódra van beállítva, nem a Raktári bizonylat sorozatszámozása/adagszámozása üzemmódra. Ebből következően a sorozat- és adagszámok nem tekinthetők meg raktárhelyenként, pusztán cikkenkénti összegzésként.';
+  Text003@1011 : TextConst 'ENU=*Note:;HUN=*Megjegyzés:';
+  EntryNo@1014 : Integer;
+  item@1102909000 : Record 27;
+
+PROCEDURE Initialize@7380(ShowQtyCalculated2@1000 : Boolean);
+BEGIN
+  ShowQtyCalculated := ShowQtyCalculated2;
+END;
+
+PROCEDURE CreateSNLotEntries@9(VAR ItemJnlLine@1000 : Record 83);
+BEGIN
+  EntryNo := 0;
+  IF ItemJnlLine.FINDSET THEN
+    REPEAT
+      IF ItemJnlLine."Bin Code" <> '' THEN BEGIN
+        IF WhseTrckg(ItemJnlLine."Item No.") THEN
+          PickSNLotFromWhseEntry(ItemJnlLine."Item No.",
+            ItemJnlLine."Variant Code",ItemJnlLine."Location Code",ItemJnlLine."Bin Code",ItemJnlLine."Unit of Measure Code")
+        ELSE BEGIN
+          CreateSummary(ItemJnlLine);
+          ShowNote := TRUE;
+        END;
+      END
+      ELSE BEGIN
+        IF DirectedPutAwayAndPick(ItemJnlLine."Location Code") THEN
+          CreateSummary(ItemJnlLine)
+        ELSE
+          PickSNLotFromILEntry(ItemJnlLine."Item No.",ItemJnlLine."Variant Code",ItemJnlLine."Location Code");
+      END;
+    UNTIL ItemJnlLine.NEXT = 0;
+END;
+
+PROCEDURE PickSNLotFromILEntry@1(ItemNo@1000 : Code[20];VariantCode@1002 : Code[10];LocationCode@1003 : Code[10]);
+VAR
+  ItemLedgEntry@1001 : Record 32;
+BEGIN
+  ItemLedgEntry.SETCURRENTKEY("Item No.",Open,"Variant Code","Location Code");
+  ItemLedgEntry.SETRANGE("Item No.",ItemNo);
+  IF "Item Journal Line"."Qty. (Calculated)" = 0 THEN  // Item Not on Inventory, show old SN/Lot
+    ItemLedgEntry.SETRANGE(Open,FALSE)
+  ELSE
+    ItemLedgEntry.SETRANGE(Open,TRUE);
+  ItemLedgEntry.SETRANGE("Variant Code",VariantCode);
+  ItemLedgEntry.SETRANGE("Location Code",LocationCode);
+  ItemLedgEntry.SETFILTER("Item Tracking",'<>%1',ItemLedgEntry."Item Tracking"::None);
+
+  IF ItemLedgEntry.FINDSET THEN
+    REPEAT
+      CreateReservEntry("Item Journal Line",ItemLedgEntry."Remaining Quantity",
+        ItemLedgEntry."Serial No.",ItemLedgEntry."Lot No.",ItemLedgEntry."Item Tracking");
+    UNTIL ItemLedgEntry.NEXT = 0;
+END;
+
+PROCEDURE PickSNLotFromWhseEntry@2(ItemNo@1002 : Code[20];VariantCode@1001 : Code[10];LocationCode@1000 : Code[10];BinCode@1004 : Code[20];UnitOM@1005 : Code[10]);
+VAR
+  WhseEntry@1003 : Record 7312;
+  ItemTrackg@1007 : 'None,Lot No.,Lot and Serial No.,Serial No.';
+BEGIN
+  WhseEntry.SETCURRENTKEY(
+    "Item No.","Bin Code","Location Code","Variant Code","Unit of Measure Code",
+    "Lot No.","Serial No.","Entry Type");
+  WhseEntry.SETRANGE("Item No.",ItemNo);
+  WhseEntry.SETRANGE("Bin Code",BinCode);
+  WhseEntry.SETRANGE("Location Code",LocationCode);
+  WhseEntry.SETRANGE("Variant Code",VariantCode);
+  WhseEntry.SETRANGE("Unit of Measure Code",UnitOM);
+
+  IF WhseEntry.FINDSET THEN
+    REPEAT
+      IF (WhseEntry."Lot No." <> '') AND (WhseEntry."Serial No." <> '') THEN
+        CreateReservEntry("Item Journal Line",WhseEntry.Quantity,
+          WhseEntry."Serial No.",WhseEntry."Lot No.",ItemTrackg::"Lot and Serial No.")
+      ELSE BEGIN
+        IF WhseEntry."Lot No." <> '' THEN
+          CreateReservEntry("Item Journal Line",WhseEntry.Quantity,
+            WhseEntry."Serial No.",WhseEntry."Lot No.",ItemTrackg::"Lot No.");
+        IF WhseEntry."Serial No." <> '' THEN
+          CreateReservEntry("Item Journal Line",WhseEntry.Quantity,
+            WhseEntry."Serial No.",WhseEntry."Lot No.",ItemTrackg::"Serial No.");
+      END;
+    UNTIL WhseEntry.NEXT = 0;
+END;
+
+PROCEDURE CreateReservEntry@3(ItemJournalLine@1000 : Record 83;Qty@1004 : Decimal;SerialNo@1005 : Code[20];LotNo@1006 : Code[20];ItemTracking@1007 : 'None,Lot No.,Lot and Serial No.,Serial No.');
+VAR
+  FoundRec@1001 : Boolean;
+BEGIN
+  ReservEntryBuffer.SETCURRENTKEY(
+    "Item No.","Variant Code","Location Code","Item Tracking","Reservation Status","Lot No.","Serial No.");
+  ReservEntryBuffer.SETRANGE("Item No.",ItemJournalLine."Item No.");
+  ReservEntryBuffer.SETRANGE("Variant Code",ItemJournalLine."Variant Code");
+  ReservEntryBuffer.SETRANGE("Location Code",ItemJournalLine."Location Code");
+  ReservEntryBuffer.SETRANGE("Reservation Status",ReservEntryBuffer."Reservation Status"::Prospect);
+  ReservEntryBuffer.SETRANGE("Item Tracking",ItemTracking);
+  ReservEntryBuffer.SETRANGE("Serial No.",SerialNo);
+  ReservEntryBuffer.SETRANGE("Lot No.",LotNo);
+
+  IF ReservEntryBuffer.FINDSET THEN BEGIN
+    REPEAT
+      IF ReservEntryBuffer."Source Ref. No." = ItemJournalLine."Line No." THEN
+        FoundRec := TRUE;
+    UNTIL (ReservEntryBuffer.NEXT = 0) OR FoundRec;
+  END;
+
+  IF NOT FoundRec THEN BEGIN
+    EntryNo += 1;
+    ReservEntryBuffer."Entry No." := EntryNo;
+    ReservEntryBuffer."Item No." := ItemJournalLine."Item No.";
+    ReservEntryBuffer."Location Code" := ItemJournalLine."Location Code";
+    ReservEntryBuffer."Quantity (Base)" := Qty;
+    ReservEntryBuffer."Variant Code" := ItemJournalLine."Variant Code";
+    ReservEntryBuffer."Reservation Status" := ReservEntryBuffer."Reservation Status"::Prospect;
+    ReservEntryBuffer."Creation Date" := WORKDATE;
+    ReservEntryBuffer."Source Type" := DATABASE::"Item Journal Line";
+    ReservEntryBuffer."Source ID" := ItemJournalLine."Journal Template Name";
+    ReservEntryBuffer."Source Batch Name" := ItemJournalLine."Journal Batch Name";
+    ReservEntryBuffer."Source Ref. No." := ItemJournalLine."Line No.";
+    ReservEntryBuffer."Qty. per Unit of Measure" := ItemJournalLine."Qty. per Unit of Measure";
+    ReservEntryBuffer."Serial No." := SerialNo;
+    ReservEntryBuffer."Lot No." := LotNo;
+    ReservEntryBuffer."Item Tracking" := ItemTracking;
+    ReservEntryBuffer.INSERT;
+  END
+  ELSE BEGIN
+    ReservEntryBuffer."Quantity (Base)" += Qty;
+    ReservEntryBuffer.MODIFY;
+  END;
+END;
+
+PROCEDURE WhseTrckg@6(ItemNo@1000 : Code[20]) : Boolean;
+VAR
+  Item@1003 : Record 27;
+  SNRequired@1002 : Boolean;
+  LNRequired@1001 : Boolean;
+BEGIN
+  SNRequired := FALSE;
+  LNRequired := FALSE;
+  Item.GET(ItemNo);
+  IF Item."Item Tracking Code" <> '' THEN BEGIN
+    ItemTrackingCode.GET(Item."Item Tracking Code");
+    SNRequired := ItemTrackingCode."SN Warehouse Tracking";
+    LNRequired := ItemTrackingCode."Lot Warehouse Tracking";
+  END;
+
+  EXIT(SNRequired OR LNRequired);
+END;
+
+PROCEDURE DirectedPutAwayAndPick@4(LocationCode@1000 : Code[10]) : Boolean;
+VAR
+  Location@1001 : Record 14;
+BEGIN
+  IF LocationCode = '' THEN
+    EXIT(FALSE);
+  Location.GET(LocationCode);
+  EXIT(Location."Directed Put-away and Pick");
+END;
+
+PROCEDURE CreateSummary@8(VAR ItemJnlLine1@1000 : Record 83);
+VAR
+  ItemJnlLine2@1005 : Record 83;
+  ItemNo@1001 : Code[20];
+  VariantCode@1002 : Code[10];
+  LocationCode@1003 : Code[10];
+  NewGroup@1004 : Boolean;
+BEGIN
+  // Create SN/Lot entry only for the last journal line in the group
+  ItemNo := ItemJnlLine1."Item No.";
+  VariantCode := ItemJnlLine1."Variant Code";
+  LocationCode := ItemJnlLine1."Location Code";
+  NewGroup := FALSE;
+  ItemJnlLine2 := ItemJnlLine1;
+  REPEAT
+    IF (ItemNo <> ItemJnlLine1."Item No.") OR
+       (VariantCode <> ItemJnlLine1."Variant Code") OR
+       (LocationCode <> ItemJnlLine1."Location Code") THEN
+      NewGroup := TRUE
+    ELSE
+      ItemJnlLine2 := ItemJnlLine1;
+  UNTIL (ItemJnlLine1.NEXT = 0) OR NewGroup;
+  ItemJnlLine1 := ItemJnlLine2;
+  PickSNLotFromILEntry(ItemJnlLine1."Item No.",ItemJnlLine1."Variant Code",ItemJnlLine1."Location Code");
+END;
+
+BEGIN
+END.
+]]></Code><RDLData/></Report></Objects>
